@@ -230,7 +230,7 @@ elseif ($activeBrand !== '') $shopCanonical .= '/brands/' . rawurlencode($brandS
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/css/style.css?v=6.0-card-hover-v22">
+  <link rel="stylesheet" href="/css/style.css?v=6.1-card-layout-fix">
   <link rel="stylesheet" href="/css/smartcart-ai.css?v=1.0">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="icon" type="image/x-icon" href="/favicon.ico">

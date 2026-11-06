@@ -94,7 +94,7 @@ function ph_home_cover($v): string {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="/css/style.css?v=5.5-product-visual">
+  <link rel="stylesheet" href="/css/style.css?v=6.1-card-layout-fix">
   <link rel="stylesheet" href="/css/smartcart-ai.css?v=1.0">
   <!-- Favicons -->
   <link rel="icon" type="image/png" href="favicon.png">
