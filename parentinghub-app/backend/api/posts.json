@@ -1,0 +1,41 @@
+[
+  {
+    "id": "p-101",
+    "community": "feeding",
+    "au": "Amina R.",
+    "av": "g",
+    "time": "3h ago",
+    "createdAt": 1792001639318,
+    "flair": "Question",
+    "title": "How often should silicone bottle teats be replaced?",
+    "body": "We have been using Philips Avent anti-colic bottles for 2 months now. The teats look fine, but what is the recommended replacement timeline for silicone teats in daily use?",
+    "votes": 14,
+    "comments": 6
+  },
+  {
+    "id": "p-102",
+    "community": "weaning",
+    "au": "Saad K.",
+    "av": "t",
+    "time": "6h ago",
+    "createdAt": 1791990839318,
+    "flair": "Tip",
+    "title": "Transitioning from feeder to straw cup (Tommee Tippee)",
+    "body": "Our 8-month-old took to the Tommee Tippee non-spill straw cup after a couple of days of practice. Holding it without tilting was the main learning curve.",
+    "votes": 21,
+    "comments": 8
+  },
+  {
+    "id": "p-103",
+    "community": "newborn",
+    "au": "Zainab M.",
+    "av": "s",
+    "time": "1d ago",
+    "createdAt": 1791926039318,
+    "flair": "Question",
+    "title": "Electric steam sterilizer vs microwave sterilizer bags for travel?",
+    "body": "Planning our first family trip from Lahore to Islamabad with a 3-month-old. Is it easier to carry microwave sterilizer bags or a compact sterilizer?",
+    "votes": 9,
+    "comments": 5
+  }
+]

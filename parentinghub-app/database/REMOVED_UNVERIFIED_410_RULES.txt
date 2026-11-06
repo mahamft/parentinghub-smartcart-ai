@@ -1,0 +1,3 @@
+Removed 140 unverified 410 rules from deployment.
+Product existence is now checked against the live products table by frontend/pages/product.php.
+Do not add 410/redirect rules until URL traffic/backlinks and replacement targets are verified.

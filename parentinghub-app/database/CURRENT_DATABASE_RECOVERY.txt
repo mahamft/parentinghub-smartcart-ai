@@ -1,0 +1,20 @@
+If phpMyAdmin shows BOTH of these errors:
+1) JSON_TABLE syntax error in verify_database.sql
+2) #1050 Table 'articles' already exists when importing parentinghub_database.sql again
+
+then the first database import probably already created the schema and the second import is only a duplicate attempt.
+
+DO NOT import parentinghub_database.sql again into the same non-empty database.
+Run the updated verify_database.sql instead.
+
+Expected key results:
+- current_products_expected_287 = 287
+- archived_products_expected_140 = 140
+- catalog_products_expected_287 = 287
+- sync_triggers_expected_3 = 3
+- product_projection_mismatches_expected_0 = 0
+- catalog_minus_products_expected_0 = 0
+
+If all six checks match, the database import is usable and no re-import is needed.
+
+If any structural check fails, do not keep retrying the full SQL over the same partially-created schema. Back up that database and import parentinghub_database.sql into a NEW EMPTY database instead.

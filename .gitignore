@@ -1,0 +1,43 @@
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Agent & IDE internal workspaces
+.agent/
+.agents/
+.gemini/
+.gsd/
+
+# Large archives and binaries
+*.zip
+*.tar.gz
+*.exe
+*.dll
+backend/cache/
+parentinghub-app/backend/cache/
+
+# Pristine reference copy
+parentinghub-original/
+
+# Database dumps containing production data
+database/*.sql
+!database/verify_database.sql
+!database/init_local_dev.sql
+
+# Logs & scratch files
+*.log
+error_log
+.system_generated/
+scratch/
+tests/tmp/
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

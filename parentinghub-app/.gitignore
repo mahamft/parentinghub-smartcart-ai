@@ -1,0 +1,24 @@
+# Environment & Secret files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Large archives and binaries
+*.zip
+*.tar.gz
+*.exe
+*.dll
+backend/cache/
+
+# Database dumps
+database/*.sql
+!database/verify_database.sql
+!database/init_local_dev.sql
+
+# Logs
+*.log
+error_log
+

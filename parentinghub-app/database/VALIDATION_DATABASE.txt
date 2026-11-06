@@ -1,0 +1,10 @@
+Tested with MariaDB 10.11.14 on an isolated local database.
+Full SQL import passed.
+All 31 original tables/data preserved (products renamed to legacy_products_archive).
+287 active products and 140 archived products verified.
+Catalog-to-products ID/name/price comparison: zero mismatches.
+All 3 synchronization triggers installed.
+Price and stock updates synchronize correctly.
+Catalog insertion and deletion synchronization passed.
+Transaction rollback and negative-price rejection passed.
+Live hosting permissions, website login, checkout and external services were not tested.

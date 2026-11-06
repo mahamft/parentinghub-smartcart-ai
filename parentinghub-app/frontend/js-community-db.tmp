@@ -1,0 +1,222 @@
+/* ParentingHub Community — database-backed frontend */
+window.PH_COMMUNITY_DB = true;
+
+(function(){
+  const DB = window.PHCommunityDB = {
+    categories: [], posts: [], reels: [], trending: [], contributors: [], topics: [], saved: [], stats: {}, authenticated: false
+  };
+
+  const e = (v) => (typeof esc === 'function' ? esc(v ?? '') : String(v ?? '').replace(/[&<>"']/g, s=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[s])));
+  const fmt = (n) => {
+    n = Number(n || 0);
+    if(n >= 1000000) return (n/1000000).toFixed(n%1000000?1:0)+'M';
+    if(n >= 1000) return (n/1000).toFixed(n%1000?1:0)+'k';
+    return String(n);
+  };
+  async function api(url, options={}){
+    const res = await fetch(url, {credentials:'same-origin', headers:{'Accept':'application/json', ...(options.body?{'Content-Type':'application/json'}:{}), ...(options.headers||{})}, ...options});
+    const data = await res.json().catch(()=>({success:false,message:'Invalid server response.'}));
+    if(!res.ok || data.success === false){
+      const err = new Error(data.message || `Request failed (${res.status})`); err.status=res.status; err.data=data; throw err;
+    }
+    return data;
+  }
+  function handleAuthError(err, action='continue'){
+    if(err && err.status===401){
+      if(typeof toast==='function') toast(`Please sign in to ${action}.`);
+      setTimeout(()=>{ location.href='/login?next='+encodeURIComponent(location.pathname+location.search); },500);
+      return true;
+    }
+    return false;
+  }
+  async function bootstrap(){
+    const d = await api('/api/community/bootstrap');
+    Object.assign(DB, d);
+    DB.saved = Array.isArray(d.saved) ? d.saved : [];
+    return DB;
+  }
+  function comm(k){ return DB.categories.find(c=>c.k===k) || {k,label:k || 'Community',em:'♡',posts:0}; }
+  function saved(type,id){ return DB.saved.some(x=>x.type===type && x.id===id); }
+  async function toggleSaved(type,id){
+    const exists=saved(type,id);
+    try{
+      if(exists) await api(`/api/community/saved/${encodeURIComponent(type)}/${encodeURIComponent(id)}`,{method:'DELETE'});
+      else await api('/api/community/saved',{method:'POST',body:JSON.stringify({itemType:type,itemId:id})});
+      if(exists) DB.saved=DB.saved.filter(x=>!(x.type===type&&x.id===id)); else DB.saved.unshift({type,id});
+      document.querySelectorAll(`[data-db-save="${CSS.escape(id)}"]`).forEach(btn=>{
+        const on=saved(type,id); btn.classList.toggle('on',on); btn.innerHTML=(typeof ICO!=='undefined'?ICO.save:'🔖')+' '+(on?'Saved':'Save');
+      });
+      if(typeof toast==='function') toast(exists?'Removed from saved':'Saved to your account');
+      return !exists;
+    }catch(err){
+      if(err.status===401){
+        if(typeof toast==='function') toast('Please sign in to save community items.');
+        setTimeout(()=>{ location.href='/login?next='+encodeURIComponent(location.pathname+location.search); },700);
+      } else if(typeof toast==='function') toast(err.message || 'Could not update saved items.');
+      return exists;
+    }
+  }
+  window.savePost = (id)=>toggleSaved('post',id);
+  window.saveReel = (id)=>toggleSaved('reel',id);
+
+  window.copyLink = function(id){
+    const url=location.origin+'/post?id='+encodeURIComponent(id);
+    navigator.clipboard?.writeText(url).catch(()=>{});
+    if(typeof toast==='function') toast('Link copied');
+  };
+  window.vote = async function(id,delta){
+    try{
+      const d=await api(`/api/community/posts/${encodeURIComponent(id)}/vote`,{method:'POST',body:JSON.stringify({delta})});
+      document.querySelectorAll(`[data-db-votes="${CSS.escape(id)}"]`).forEach(x=>x.textContent=d.votes);
+      const p=DB.posts.find(x=>x.id===id); if(p)p.votes=d.votes;
+    }catch(err){ if(!handleAuthError(err,'vote') && typeof toast==='function') toast(err.message || 'Vote failed'); }
+  };
+
+  function postCard(p){
+    const c=comm(p.community), isSaved=saved('post',p.id);
+    return `<article class="post v2 rv" id="post-${e(p.id)}">
+      <div class="vrow">
+        <button class="vbtn up" onclick="vote('${e(p.id)}',1)" aria-label="Upvote">${typeof ICO!=='undefined'?ICO.up:'▲'}</button>
+        <span class="vscore" data-db-votes="${e(p.id)}">${Number(p.votes||0)}</span>
+        <button class="vbtn down" onclick="vote('${e(p.id)}',-1)" aria-label="Downvote">${typeof ICO!=='undefined'?ICO.down:'▼'}</button>
+        <span class="vsep"></span><span class="vlabel">${Number(p.votes||0)>80?'Helpful':'Worth a read'}</span>
+      </div>
+      <div class="head">
+        <span class="avatar sm ${e(p.av||'g')}">${e((p.au||'P').charAt(0))}</span>
+        <a href="/community?c=${encodeURIComponent(p.community||'')}"><b>${e(c.em||'')} ${e(c.label)}</b></a>
+        <span>· ${e(p.au)}</span><span>· ${e(p.time)}</span>
+        <span class="tag tag-qa" style="margin-inline-start:auto">${e(p.flair)}</span>
+      </div>
+      <a class="ptitle" href="/post?id=${encodeURIComponent(p.id)}"><h3>${e(p.title)}</h3></a>
+      <p class="text">${e(p.body)}</p>
+      <div class="foot">
+        <a class="act" href="/post?id=${encodeURIComponent(p.id)}">${typeof ICO!=='undefined'?ICO.comment:'💬'} ${Number(p.comments||0)} answers</a>
+        <button class="act" onclick="copyLink('${e(p.id)}')">${typeof ICO!=='undefined'?ICO.share:'↗'} Share</button>
+        <button class="act ${isSaved?'on':''}" data-db-save="${e(p.id)}" onclick="savePost('${e(p.id)}')" style="${isSaved?'color:var(--terra-2)':''}">${typeof ICO!=='undefined'?ICO.save:'🔖'} ${isSaved?'Saved':'Save'}</button>
+      </div>
+    </article>`;
+  }
+
+  async function initCommunityDb(){
+    const feed=document.getElementById('feed'); if(!feed) return;
+    try{ await bootstrap(); }catch(err){ feed.innerHTML=`<div class="empty"><b>Community could not load</b><p class="small muted">${e(err.message)}</p></div>`; return; }
+
+    const statSpans=document.querySelectorAll('.comm-hero .row.wrap.gap-m .tiny.muted span');
+    if(statSpans[0]) statSpans[0].innerHTML=`${typeof ICO!=='undefined'?ICO.users:'👥'} ${fmt(DB.stats.parents)} parents`;
+    if(statSpans[1]) statSpans[1].innerHTML=`${typeof ICO!=='undefined'?ICO.comment:'💬'} ${fmt(DB.stats.answersThisMonth)} answers this month`;
+    if(statSpans[2]) statSpans[2].innerHTML=`${typeof ICO!=='undefined'?ICO.comment:'💬'} ${fmt(DB.stats.answersTotal)} total answers`;
+
+    const select=document.getElementById('askCommunity');
+    if(select) select.innerHTML=DB.categories.map(c=>`<option value="${e(c.k)}">${e(c.label)}</option>`).join('');
+
+    const params=new URLSearchParams(location.search); let commKey=params.get('c')||'all'; let view=params.get('tab')||'foryou'; let sort='new';
+    const rail=document.getElementById('commRail');
+    if(rail) rail.innerHTML=`<div class="panel"><h5>Your communities</h5>
+      <a class="item ${commKey==='all'?'on':''}" href="#" data-db-c="all"><span class="em">${typeof ICO!=='undefined'?ICO.users:'👥'}</span>All parents<span class="n">${DB.posts.length}</span></a>
+      ${DB.categories.map(c=>`<a class="item ${commKey===c.k?'on':''}" href="#" data-db-c="${e(c.k)}"><span class="em">${e(c.em)}</span>${e(c.label)}<span class="n">${Number(c.posts||0)} posts</span></a>`).join('')}
+      <a class="item" href="/reels"><span class="em">${typeof ICO!=='undefined'?ICO.play:'▶'}</span>Reels<span class="n">${DB.reels.length}</span></a>
+      <a class="item" href="/saved"><span class="em">${typeof ICO!=='undefined'?ICO.save:'🔖'}</span>Saved<span class="n">${DB.saved.length}</span></a>
+    </div>
+    <div class="panel"><h5>House rules</h5><div class="rule"><b>1.</b><span>Be kind. Every parent here is trying.</span></div><div class="rule"><b>2.</b><span>No medical diagnosis — share experience, see your doctor.</span></div><div class="rule"><b>3.</b><span>No spam or selling in discussion threads.</span></div></div>`;
+
+    const railR=document.getElementById('commRailR');
+    if(railR) railR.innerHTML=`<div class="panel"><h5>Trending in the community</h5>${DB.trending.map((t,i)=>`<a class="trend" href="/post?id=${encodeURIComponent(t.p)}"><span class="rank">${i+1}</span><span><b>${e(t.t)}</b><span>${e(comm(t.c).label)} · ${t.v} votes</span></span></a>`).join('')||'<p class="tiny muted">No trending discussions yet.</p>'}</div>
+      <div class="panel"><h5>Top contributors</h5>${DB.contributors.map(p=>`<div class="people"><span class="avatar sm ${e(p.av||'g')}">${e((p.n||'P').charAt(0))}</span><span class="grow"><b>${e(p.n)}</b><span>${e(p.r)}</span></span></div>`).join('')||'<p class="tiny muted">Contributors will appear here.</p>'}</div>
+      <div class="panel"><h5>Browse topics</h5><div class="hash">${DB.topics.map(t=>`<a href="/community?tab=questions">${e(t.label)} <small>${t.count}</small></a>`).join('')}</div></div>`;
+
+    function render(){
+      let list=DB.posts.slice(); if(commKey!=='all')list=list.filter(p=>p.community===commKey); if(view==='questions')list=list.filter(p=>(p.flair||'').toLowerCase()==='question');
+      if(sort==='top')list.sort((a,b)=>Number(b.votes)-Number(a.votes)); else list.sort((a,b)=>Number(b.createdAt)-Number(a.createdAt));
+      feed.innerHTML=list.length?list.map(postCard).join(''):`<div class="empty"><div class="box">💬</div><b>No discussions yet</b><p class="small muted">Start the first conversation in this section.</p></div>`;
+      const meta=document.getElementById('feedMeta'); if(meta)meta.textContent=`${list.length} discussions from database`;
+      if(typeof initReveal==='function')initReveal();
+    }
+    document.querySelectorAll('[data-db-c]').forEach(a=>a.addEventListener('click',ev=>{ev.preventDefault();commKey=a.dataset.dbC;document.querySelectorAll('[data-db-c]').forEach(x=>x.classList.toggle('on',x.dataset.dbC===commKey));render();}));
+    document.querySelectorAll('[data-sort]').forEach(b=>b.addEventListener('click',()=>{sort=b.dataset.sort;document.querySelectorAll('[data-sort]').forEach(x=>x.classList.toggle('on',x===b));render();}));
+    document.querySelectorAll('[data-tab]').forEach(a=>{
+      if(a.getAttribute('href')==='/saved') return;
+      a.addEventListener('click',ev=>{ const t=a.dataset.tab;if(!t)return;ev.preventDefault();view=t;document.querySelectorAll('[data-tab]').forEach(x=>x.classList.toggle('active',x.dataset.tab===view));render();});
+    });
+
+    window.focusAsk=()=>{const input=document.getElementById('askTitle'),ex=document.getElementById('composerExpand');if(ex)ex.classList.add('on');input?.focus();};
+    document.getElementById('askTitle')?.addEventListener('focus',()=>document.getElementById('composerExpand')?.classList.add('on'));
+    window.submitPost=async()=>{
+      const title=document.getElementById('askTitle')?.value.trim()||'', body=document.getElementById('askBody')?.value.trim()||'';
+      if(!title||!body){ if(typeof toast==='function')toast('Add a title and details first.'); return; }
+      try{
+        const d=await api('/api/community/posts',{method:'POST',body:JSON.stringify({title,body,community:document.getElementById('askCommunity')?.value||'feeding',flair:document.getElementById('askFlair')?.value||'Question'})});
+        DB.posts.unshift(d.post);
+        const postedCategory=DB.categories.find(c=>c.k===d.post.community); if(postedCategory) postedCategory.posts=Number(postedCategory.posts||0)+1;
+        const allCount=document.querySelector('[data-db-c="all"] .n'); if(allCount) allCount.textContent=String(DB.posts.length);
+        const catCount=document.querySelector(`[data-db-c="${CSS.escape(d.post.community||'')}"] .n`); if(catCount) catCount.textContent=`${Number(postedCategory?.posts||0)} posts`;
+        document.getElementById('askTitle').value='';document.getElementById('askBody').value='';document.getElementById('composerExpand')?.classList.remove('on');render();if(typeof toast==='function')toast('Posted to the community.');
+      }catch(err){if(!handleAuthError(err,'post in the community') && typeof toast==='function')toast(err.message||'Could not publish post.');}
+    };
+    render();
+  }
+
+  function reelCard(r){
+    return `<button type="button" class="reel-item-card" data-reel-id="${e(r.id)}" onclick="openReelPlayerModal('${e(r.id)}')" aria-label="Play reel: ${e(r.title)}">
+      <img src="${e(r.img||r.media)}" alt="${e(r.title)}" loading="lazy"><span class="reel-play-float">▶</span>
+      <div class="reel-item-overlay"><span class="badge" style="align-self:flex-start;background:rgba(255,255,255,.92);color:var(--primary);font-size:11px;padding:3px 10px;border-radius:12px;font-weight:700">${e(r.tag)}</span><b style="font-size:15px;line-height:1.35">${e(r.title)}</b><span class="tiny" style="color:#f0e6f6;display:flex;justify-content:space-between"><span>${e(r.by)}</span><span>${e(r.tag||'Parenting')}</span></span></div>
+    </button>`;
+  }
+  window.openReelPlayerModal=async function(id){
+    const r=DB.reels.find(x=>x.id===id); if(!r)return;
+    let modal=document.getElementById('reelModalDb');if(!modal){modal=document.createElement('div');modal.id='reelModalDb';modal.className='modal';document.body.appendChild(modal);}
+    const media=String(r.media||r.img||''); const isVideo=/\.(mp4|webm|mov)(\?|$)/i.test(media);
+    modal.innerHTML=`<div class="scrim" onclick="document.getElementById('reelModalDb').classList.remove('open')"></div><div class="box" style="max-width:460px;background:#0d0a10;color:#fff;border-radius:24px;overflow:hidden;padding:0;max-height:92vh;overflow-y:auto"><div style="position:relative;aspect-ratio:9/16;background:#111">${isVideo?`<video src="${e(media)}" controls autoplay playsinline preload="metadata" style="width:100%;height:100%;object-fit:cover"></video>`:`<img src="${e(r.img||media)}" alt="${e(r.title)}" style="width:100%;height:100%;object-fit:cover">`}<button class="icon-btn" onclick="document.getElementById('reelModalDb').classList.remove('open')" style="position:absolute;top:14px;right:14px;z-index:3">✕</button><div style="position:absolute;left:0;right:0;bottom:0;padding:52px 20px 20px;background:linear-gradient(transparent,rgba(0,0,0,.92));"><b>${e(r.title)}</b><p class="small" style="margin-top:6px;color:#eee">${e(r.caption)}</p><div class="tiny" style="margin-top:8px">${e(r.by)} · ${e(r.tag||'Parenting')}</div><div class="row gap-m" style="margin-top:10px"><button id="dbReelLikeBtn" class="btn btn-xs" style="background:#fff;color:#7a2244">♥ <span id="dbReelLikes">${Number(r.likes||0)}</span></button><span class="tiny" id="dbReelCommentCount">${Number(r.comments||0)} comments</span></div></div></div><div style="padding:14px;background:#fff;color:#2E2333"><div id="dbReelComments" class="small muted">Loading comments…</div><form id="dbReelCommentForm" style="display:flex;gap:8px;margin-top:12px"><input id="dbReelCommentInput" maxlength="1000" placeholder="Add a comment…" style="flex:1;padding:9px 11px;border:1px solid #ddd;border-radius:10px"><button class="btn btn-primary btn-xs" type="submit">Post</button></form></div></div>`;
+    modal.classList.add('open');
+    const renderComments=(items)=>{const box=document.getElementById('dbReelComments');if(box)box.innerHTML=items.length?items.map(c=>`<div style="padding:8px 0;border-bottom:1px solid #eee"><b>${e(c.author)}</b><div>${e(c.body)}</div></div>`).join(''):'<div>No comments yet.</div>';const cc=document.getElementById('dbReelCommentCount');if(cc)cc.textContent=`${items.length} comments`;};
+    try{const d=await api(`/api/community/reels/${encodeURIComponent(id)}/comments`);renderComments(d.comments||[]);}catch(err){const box=document.getElementById('dbReelComments');if(box)box.textContent='Comments could not load.';}
+    document.getElementById('dbReelLikeBtn').onclick=async()=>{try{const d=await api(`/api/community/reels/${encodeURIComponent(id)}/like`,{method:'POST',body:'{}'});document.getElementById('dbReelLikes').textContent=d.likes;r.likes=d.likes;}catch(err){if(!handleAuthError(err,'like a reel')&&typeof toast==='function')toast(err.message||'Could not update like.');}};
+    document.getElementById('dbReelCommentForm').onsubmit=async(ev)=>{ev.preventDefault();const input=document.getElementById('dbReelCommentInput');const body=input.value.trim();if(!body)return;try{await api(`/api/community/reels/${encodeURIComponent(id)}/comments`,{method:'POST',body:JSON.stringify({body})});input.value='';const d=await api(`/api/community/reels/${encodeURIComponent(id)}/comments`);renderComments(d.comments||[]);r.comments=(d.comments||[]).length;}catch(err){if(!handleAuthError(err,'comment on a reel')&&typeof toast==='function')toast(err.message||'Could not post comment.');}};
+  };
+  async function initReelsDb(){
+    const grid=document.getElementById('reelsGrid');if(!grid)return;
+    try{await bootstrap();}catch(err){grid.innerHTML=`<div class="empty"><b>Reels could not load</b><p>${e(err.message)}</p></div>`;return;}
+    let tag='all'; const render=()=>{const list=tag==='all'?DB.reels:DB.reels.filter(r=>(r.tag||'').toLowerCase()===tag.toLowerCase());grid.innerHTML=list.length?list.map(reelCard).join(''):'<div class="empty"><b>No reels in this category.</b></div>';};
+    document.querySelectorAll('#reelFilterBar .chip').forEach(btn=>btn.addEventListener('click',()=>{tag=btn.dataset.tag;document.querySelectorAll('#reelFilterBar .chip').forEach(x=>x.classList.toggle('on',x===btn));render();}));
+    render();
+  }
+
+  async function initPostDb(){
+    const wrap=document.getElementById('postWrap');if(!wrap)return; const id=new URLSearchParams(location.search).get('id');if(!id){wrap.innerHTML='<div class="empty"><b>Discussion not specified.</b></div>';return;}
+    try{
+      await bootstrap(); let p=DB.posts.find(x=>x.id===id); if(!p){const d=await api('/api/community/posts/'+encodeURIComponent(id));p=d.post;}
+      const a=await api(`/api/community/posts/${encodeURIComponent(id)}/answers`); const answers=a.answers||[]; const c=comm(p.community); const isSaved=saved('post',p.id);
+      const byId=new Map(answers.map(x=>[x.id,x])); const children=new Map();
+      answers.forEach(x=>{const pid=x.parentId&&byId.has(x.parentId)?x.parentId:'';if(!children.has(pid))children.set(pid,[]);children.get(pid).push(x);});
+      const renderAnswer=(x,depth=0)=>`<div class="cmt ${x.best?'best':''}" style="margin-left:${Math.min(depth,3)*18}px"><span class="avatar sm ${e(x.av||'t')}">${e((x.au||'P').charAt(0))}</span><div class="body"><div class="meta"><b>${e(x.au)}</b><span>· ${e(x.time)}</span>${x.verified?'<span class="tag tag-ans">Verified</span>':''}${x.best?'<span class="tag tag-best">Best answer</span>':''}</div><div class="txt">${e(x.text)}</div><div class="acts"><button class="act" type="button" onclick="dbSetReply('${e(x.id)}')">↩ Reply</button></div>${(children.get(x.id)||[]).map(ch=>renderAnswer(ch,depth+1)).join('')}</div></div>`;
+      const roots=children.get('')||[];
+      wrap.innerHTML=`<div class="pd-wrap"><div><article class="pd"><div class="pbody"><div class="head"><a href="/community?c=${encodeURIComponent(p.community)}"><b>${e(c.label)}</b></a> · ${e(p.au)} · ${e(p.time)}</div><h1>${e(p.title)}</h1><p class="ptext">${e(p.body)}</p></div><div class="pactions"><button class="act" onclick="vote('${e(p.id)}',1)">▲ <span data-db-votes="${e(p.id)}">${p.votes}</span></button><button class="act" data-db-save="${e(p.id)}" onclick="savePost('${e(p.id)}')">${typeof ICO!=='undefined'?ICO.save:'🔖'} ${isSaved?'Saved':'Save'}</button><button class="act" onclick="copyLink('${e(p.id)}')">Share</button></div></article>
+        <div class="cbox"><h3 id="answersHeading">${answers.length} answers & replies</h3><div id="dbReplyTarget" class="tiny muted" style="display:none;margin-bottom:8px"></div><textarea id="dbAnswerText" maxlength="4000" placeholder="Share a helpful answer…"></textarea><div style="text-align:right;margin-top:8px"><button class="btn btn-ghost btn-s" id="dbCancelReply" type="button" style="display:none">Cancel reply</button> <button class="btn btn-primary btn-s" id="dbAnswerBtn">Post answer</button></div><div id="dbAnswers">${roots.length?roots.map(x=>renderAnswer(x,0)).join(''):'<div class="empty"><b>No answers yet</b><p class="small muted">Be the first parent to reply.</p></div>'}</div></div></div><aside class="pd-side"><div class="panel"><h5>Community</h5><p class="small muted">${e(c.label)} · ${Number(c.posts||0)} posts</p><a class="btn btn-soft btn-s" href="/community?c=${encodeURIComponent(p.community)}" style="margin-top:10px">More discussions</a></div></aside></div>`;
+      let replyParentId='';
+      window.dbSetReply=function(answerId){const target=byId.get(answerId);if(!target)return;replyParentId=answerId;const note=document.getElementById('dbReplyTarget');if(note){note.style.display='block';note.textContent='Replying to '+(target.au||'parent');}const cancel=document.getElementById('dbCancelReply');if(cancel)cancel.style.display='inline-flex';const box=document.getElementById('dbAnswerText');if(box){box.placeholder='Write a reply…';box.focus();}};
+      const clearReply=()=>{replyParentId='';const note=document.getElementById('dbReplyTarget');if(note)note.style.display='none';const cancel=document.getElementById('dbCancelReply');if(cancel)cancel.style.display='none';const box=document.getElementById('dbAnswerText');if(box)box.placeholder='Share a helpful answer…';};
+      document.getElementById('dbCancelReply').onclick=clearReply;
+      document.getElementById('dbAnswerBtn').onclick=async()=>{const box=document.getElementById('dbAnswerText');const text=box.value.trim();if(!text)return;try{await api(`/api/community/posts/${encodeURIComponent(id)}/answers`,{method:'POST',body:JSON.stringify({text,parentId:replyParentId})});location.reload();}catch(err){if(!handleAuthError(err,replyParentId?'post a reply':'post an answer') && typeof toast==='function')toast(err.message);}};
+    }catch(err){wrap.innerHTML=`<div class="empty"><b>Discussion could not load</b><p>${e(err.message)}</p></div>`;}
+  }
+
+  async function initSavedDb(){
+    const commBox=document.getElementById('savedDiscussionsList'); if(!commBox)return;
+    // Product wishlist mirrors the account-backed wishlist synchronized by app.js; community saved items are database backed.
+    const prodGrid=document.getElementById('savedProductsGrid'), prodCount=document.getElementById('badgeProdCount');
+    if(prodGrid){const wish=(typeof S!=='undefined'&&Array.isArray(S.wish))?S.wish:[];if(prodCount)prodCount.textContent=wish.length;const items=wish.map(id=>typeof PRODUCTS!=='undefined'?PRODUCTS.find(p=>p.id===id):null).filter(Boolean);prodGrid.innerHTML=items.length&&typeof productCard==='function'?items.map(productCard).join(''):`<div style="grid-column:1/-1;text-align:center;padding:42px 16px;background:var(--cream);border-radius:18px"><b>Your product wishlist is empty</b><p class="small muted" style="margin-top:6px">Use the heart icon in the shop to save products.</p><a href="/shop" class="btn btn-soft btn-s" style="margin-top:12px">Browse Shop</a></div>`;}
+    try{
+      const d=await api('/api/community/saved'); const items=d.items||[]; const badge=document.getElementById('badgeCommCount');if(badge)badge.textContent=items.length;
+      commBox.innerHTML=items.length?items.map(x=>{const d=x.detail;if(!d)return'';if(x.type==='post')return postCard(d);if(x.type==='reel')return `<div class="panel"><b>${e(d.title)}</b><p class="small muted">${e(d.caption)}</p><div class="row gap-m" style="margin-top:10px"><button class="btn btn-soft btn-xs" onclick="openReelPlayerModal('${e(d.id)}')">Play reel</button><button class="btn btn-ghost btn-xs" onclick="removeSavedDb('${x.type}','${e(x.itemId)}')">Remove</button></div></div>`;return `<div class="panel"><b>Saved answer</b><p class="small muted" style="margin-top:6px">${e(d.text)}</p><button class="btn btn-ghost btn-xs" style="margin-top:10px" onclick="removeSavedDb('${x.type}','${e(x.itemId)}')">Remove</button></div>`;}).join(''):'<div style="text-align:center;padding:48px 16px;background:var(--cream);border-radius:18px"><b>No saved community items yet</b><p class="small muted" style="margin-top:6px">Save useful discussions or reels from the Community.</p><a href="/community" class="btn btn-primary btn-s" style="margin-top:12px">Browse Community</a></div>';
+    }catch(err){ if(err.status===401) commBox.innerHTML='<div style="text-align:center;padding:48px 16px;background:var(--cream);border-radius:18px"><b>Sign in to view saved community items</b><p class="small muted" style="margin-top:6px">Your saved discussions and reels are stored with your account.</p><a href="/login?next=/saved" class="btn btn-primary btn-s" style="margin-top:12px">Sign in</a></div>'; else commBox.innerHTML=`<div class="empty"><b>Saved items could not load</b><p>${e(err.message)}</p></div>`; }
+    window.switchSavedTab=function(tab){document.querySelectorAll('#savedTabNav .saved-tab-btn').forEach(b=>b.classList.toggle('active',b.dataset.view===tab));document.getElementById('viewProducts').style.display=tab==='products'?'block':'none';document.getElementById('viewCommunity').style.display=tab==='community'?'block':'none';};
+  }
+  window.removeSavedDb=async(type,id)=>{try{await api(`/api/community/saved/${encodeURIComponent(type)}/${encodeURIComponent(id)}`,{method:'DELETE'});location.reload();}catch(err){if(!handleAuthError(err,'manage saved items') && typeof toast==='function')toast(err.message);}};
+
+  document.addEventListener('DOMContentLoaded',()=>{
+    const page=document.body.dataset.page;
+    if(page==='community')initCommunityDb();
+    if(page==='reels')initReelsDb();
+    if(page==='post')initPostDb();
+    if(page==='saved')initSavedDb();
+  });
+})();

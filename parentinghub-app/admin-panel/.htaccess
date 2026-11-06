@@ -1,0 +1,8 @@
+Options -Indexes
+DirectoryIndex index.php
+
+# Admin must be reachable so the application can show its login/auth screen.
+# Authentication/authorization is handled by the PHP admin application.
+<IfModule mod_authz_core.c>
+Require all granted
+</IfModule>

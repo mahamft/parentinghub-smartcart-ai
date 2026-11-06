@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SmartCart AI Assistant UI Snapshot</title>
+  <link rel="stylesheet" href="../frontend/css/smartcart-ai.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+      background: #FAF6F4;
+      min-height: 100vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+    /* Keep modal open for snapshot */
+    #smartcart-ai-modal {
+      opacity: 1 !important;
+      visibility: visible !important;
+      transform: none !important;
+      position: relative !important;
+      bottom: auto !important;
+      right: auto !important;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Floating Action Button -->
+  <div id="smartcart-ai-fab" style="position: absolute; bottom: 30px; left: 40px;">
+    <div class="sc-fab-icon">✨</div>
+    <div class="sc-fab-label">
+      <span class="sc-fab-title">SmartCart AI</span>
+      <span class="sc-fab-sub">Parenting Advisor</span>
+    </div>
+  </div>
+
+  <!-- Assistant Drawer / Modal -->
+  <div id="smartcart-ai-modal" class="open" role="dialog" aria-modal="true">
+    <div class="sc-header">
+      <div class="sc-header-brand">
+        <div class="sc-header-avatar">🍼</div>
+        <div class="sc-header-text">
+          <h3 id="sc-title">SmartCart AI <span class="sc-header-badge">Advisor</span></h3>
+          <p class="sc-header-sub">ParentingHub Pakistan Verified Essentials</p>
+        </div>
+      </div>
+      <div class="sc-header-actions">
+        <button class="sc-btn-icon" title="Clear Conversation">🔄</button>
+        <button class="sc-btn-icon" title="Close Assistant">✕</button>
+      </div>
+    </div>
+
+    <!-- Chat Thread -->
+    <div class="sc-thread" id="sc-thread">
+      <!-- Welcome Message -->
+      <div class="sc-msg bot">
+        <div class="sc-bubble">
+          👋 <b>Assalam-o-Alaikum! Welcome to ParentingHub SmartCart AI.</b><br>
+          I can help you discover genuine baby essentials, match products to your baby's age, and compare gear within your budget.
+          
+          <div style="margin-top:14px;font-weight:800;font-size:12px;color:var(--ph-rose);text-transform:uppercase;letter-spacing:0.5px">Try a quick search:</div>
+          <div class="sc-prompt-pills">
+            <button class="sc-pill sc-demo-pill">
+              <span class="sc-pill-badge">Scenario A</span> 🍼 Anti-colic bottles under Rs 6,000
+            </button>
+            <button class="sc-pill sc-demo-pill">
+              <span class="sc-pill-badge">Scenario B</span> ⚖️ Compare Avent vs Tommee Tippee
+            </button>
+            <button class="sc-pill sc-demo-pill">
+              🥣 Weaning cups for 6 months
+            </button>
+          </div>
+        </div>
+        <div class="sc-msg-meta">ParentingHub AI • Verified Store Data</div>
+      </div>
+
+      <!-- User query -->
+      <div class="sc-msg user">
+        <div class="sc-bubble">Recommend anti-colic feeding bottles under Rs 6,000</div>
+        <div class="sc-msg-meta">You</div>
+      </div>
+
+      <!-- Bot response with grounded cards -->
+      <div class="sc-msg bot">
+        <div class="sc-bubble">
+          <div>Based on our verified catalog for <b>All Stages</b>, here are top-rated feeding recommendations under your budget:</div>
+          <div class="sc-cards-container">
+            <div class="sc-card">
+              <div class="sc-card-img-wrap">
+                <span class="sc-card-brand-badge">Philips Avent</span>
+                <img src="/art/placeholder.jpg" alt="Philips Avent Natural 260ml Bottle" class="sc-card-img" />
+              </div>
+              <div class="sc-card-title" title="Philips Avent Natural 260ml Bottle">Philips Avent Natural 260ml Bottle</div>
+              <div class="sc-card-price-row">
+                <span class="sc-card-price">PKR 2,450</span>
+                <span class="sc-card-old-price">PKR 2,800</span>
+              </div>
+              <div class="sc-card-reason">💡 Anti-colic valve • BPA-free • Top rated (4.9★)</div>
+              <div class="sc-card-actions">
+                <button class="sc-btn-sm sc-btn-primary">+ Add to Bag</button>
+                <a href="#" class="sc-btn-sm sc-btn-secondary">View</a>
+              </div>
+            </div>
+
+            <div class="sc-card">
+              <div class="sc-card-img-wrap">
+                <span class="sc-card-brand-badge">Tommee Tippee</span>
+                <img src="/art/placeholder.jpg" alt="Tommee Tippee Closer to Nature Bottle" class="sc-card-img" />
+              </div>
+              <div class="sc-card-title" title="Tommee Tippee Closer to Nature Bottle">Tommee Tippee Closer to Nature Bottle</div>
+              <div class="sc-card-price-row">
+                <span class="sc-card-price">PKR 2,890</span>
+                <span class="sc-card-old-price">PKR 3,200</span>
+              </div>
+              <div class="sc-card-reason">💡 Breast-like teat • Sensitive anti-colic valve</div>
+              <div class="sc-card-actions">
+                <button class="sc-btn-sm sc-btn-primary">+ Add to Bag</button>
+                <a href="#" class="sc-btn-sm sc-btn-secondary">View</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="sc-prompt-pills" style="margin-top:10px">
+            <button class="sc-pill sc-action-pill">⚖️ Compare Philips Avent vs Tommee Tippee</button>
+          </div>
+        </div>
+        <div class="sc-msg-meta">SmartCart • AI Verified • All Stages</div>
+      </div>
+    </div>
+
+    <!-- Footer & Input -->
+    <div class="sc-footer">
+      <form class="sc-input-form" onsubmit="return false;">
+        <input 
+          type="text" 
+          class="sc-input-field" 
+          placeholder="Ask for baby bottles, strollers, weaning gear..." 
+          value="Compare Philips Avent vs Tommee Tippee"
+        />
+        <button type="submit" class="sc-send-btn" title="Send Question">➤</button>
+      </form>
+      <div class="sc-disclaimer-text">
+        Standard delivery fee is PKR 200 nationwide. Medical concerns should be referred to a pediatrician.
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
+

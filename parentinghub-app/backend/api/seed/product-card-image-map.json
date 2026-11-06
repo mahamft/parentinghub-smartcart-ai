@@ -1,0 +1,964 @@
+[
+  {
+    "id": "kidilo-kd3-3",
+    "sku": "KD3-3",
+    "old_image": "assets/products/kidilo/kidilo-kd3-3.webp",
+    "new_image": "assets/products/card/kidilo-kd3-3.webp",
+    "new_images": [
+      "assets/products/card/kidilo-kd3-3.webp",
+      "assets/products/kidilo/kidilo-kd3-3.webp",
+      "assets/products/kidilo/kidilo-kd3-3-detail.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/kidilo/kidilo-kd3-3.webp"
+  },
+  {
+    "id": "kidilo-b01",
+    "sku": "B01",
+    "old_image": "assets/products/kidilo/kidilo-b01.webp",
+    "new_image": "assets/products/card/kidilo-b01.webp",
+    "new_images": [
+      "assets/products/card/kidilo-b01.webp",
+      "assets/products/kidilo/kidilo-b01.webp",
+      "assets/products/kidilo/kidilo-b01-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-b01.webp"
+  },
+  {
+    "id": "kidilo-e04d",
+    "sku": "E04D",
+    "old_image": "assets/products/kidilo/kidilo-e04d.webp",
+    "new_image": "assets/products/card/kidilo-e04d.webp",
+    "new_images": [
+      "assets/products/card/kidilo-e04d.webp",
+      "assets/products/kidilo/kidilo-e04d.webp",
+      "assets/products/kidilo/kidilo-e04d-detail.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/kidilo/kidilo-e04d.webp"
+  },
+  {
+    "id": "kidilo-rc002",
+    "sku": "RC002",
+    "old_image": "assets/products/kidilo/kidilo-rc002.webp",
+    "new_image": "assets/products/card/kidilo-rc002.webp",
+    "new_images": [
+      "assets/products/card/kidilo-rc002.webp",
+      "assets/products/kidilo/kidilo-rc002.webp",
+      "assets/products/kidilo/kidilo-rc002-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-rc002.webp"
+  },
+  {
+    "id": "kidilo-rc003",
+    "sku": "RC003",
+    "old_image": "assets/products/kidilo/kidilo-rc003.webp",
+    "new_image": "assets/products/card/kidilo-rc003.webp",
+    "new_images": [
+      "assets/products/card/kidilo-rc003.webp",
+      "assets/products/kidilo/kidilo-rc003.webp",
+      "assets/products/kidilo/kidilo-rc003-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-rc003.webp"
+  },
+  {
+    "id": "kidilo-6018",
+    "sku": "6018",
+    "old_image": "assets/products/kidilo/kidilo-6018.webp",
+    "new_image": "assets/products/card/kidilo-6018.webp",
+    "new_images": [
+      "assets/products/card/kidilo-6018.webp",
+      "assets/products/kidilo/kidilo-6018.webp",
+      "assets/products/kidilo/kidilo-6018-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-6018.webp"
+  },
+  {
+    "id": "kidilo-g310",
+    "sku": "G310",
+    "old_image": "assets/products/kidilo/kidilo-g310.webp",
+    "new_image": "assets/products/card/kidilo-g310.webp",
+    "new_images": [
+      "assets/products/card/kidilo-g310.webp",
+      "assets/products/kidilo/kidilo-g310.webp",
+      "assets/products/kidilo/kidilo-g310-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-g310.webp"
+  },
+  {
+    "id": "kidilo-g303",
+    "sku": "G303",
+    "old_image": "assets/products/kidilo/kidilo-g303.webp",
+    "new_image": "assets/products/card/kidilo-g303.webp",
+    "new_images": [
+      "assets/products/card/kidilo-g303.webp",
+      "assets/products/kidilo/kidilo-g303.webp",
+      "assets/products/kidilo/kidilo-g303-detail.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/kidilo/kidilo-g303.webp"
+  },
+  {
+    "id": "kidilo-e560",
+    "sku": "E560",
+    "old_image": "assets/products/kidilo/kidilo-e560.webp",
+    "new_image": "assets/products/card/kidilo-e560.webp",
+    "new_images": [
+      "assets/products/card/kidilo-e560.webp",
+      "assets/products/kidilo/kidilo-e560.webp",
+      "assets/products/kidilo/kidilo-e560-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-e560.webp"
+  },
+  {
+    "id": "kidilo-kd018",
+    "sku": "KD018",
+    "old_image": "assets/products/kidilo/kidilo-kd018.webp",
+    "new_image": "assets/products/card/kidilo-kd018.webp",
+    "new_images": [
+      "assets/products/card/kidilo-kd018.webp",
+      "assets/products/kidilo/kidilo-kd018.webp",
+      "assets/products/kidilo/kidilo-kd018-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-kd018.webp"
+  },
+  {
+    "id": "kidilo-kd015",
+    "sku": "KD015",
+    "old_image": "assets/products/kidilo/kidilo-kd015.webp",
+    "new_image": "assets/products/card/kidilo-kd015.webp",
+    "new_images": [
+      "assets/products/card/kidilo-kd015.webp",
+      "assets/products/kidilo/kidilo-kd015.webp",
+      "assets/products/kidilo/kidilo-kd015-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-kd015.webp"
+  },
+  {
+    "id": "kidilo-kbh311",
+    "sku": "KBH311",
+    "old_image": "assets/products/kidilo/kidilo-kbh311.webp",
+    "new_image": "assets/products/card/kidilo-kbh311.webp",
+    "new_images": [
+      "assets/products/card/kidilo-kbh311.webp",
+      "assets/products/kidilo/kidilo-kbh311.webp",
+      "assets/products/kidilo/kidilo-kbh311-detail.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/kidilo/kidilo-kbh311.webp"
+  },
+  {
+    "id": "kidilo-kd616",
+    "sku": "KD616",
+    "old_image": "assets/products/kidilo/kidilo-kd616.webp",
+    "new_image": "assets/products/card/kidilo-kd616.webp",
+    "new_images": [
+      "assets/products/card/kidilo-kd616.webp",
+      "assets/products/kidilo/kidilo-kd616.webp",
+      "assets/products/kidilo/kidilo-kd616-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-kd616.webp"
+  },
+  {
+    "id": "kidilo-p07",
+    "sku": "P07",
+    "old_image": "assets/products/kidilo/kidilo-p07.webp",
+    "new_image": "assets/products/card/kidilo-p07.webp",
+    "new_images": [
+      "assets/products/card/kidilo-p07.webp",
+      "assets/products/kidilo/kidilo-p07.webp",
+      "assets/products/kidilo/kidilo-p07-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-p07.webp"
+  },
+  {
+    "id": "kidilo-k03",
+    "sku": "K03",
+    "old_image": "assets/products/kidilo/kidilo-k03.webp",
+    "new_image": "assets/products/card/kidilo-k03.webp",
+    "new_images": [
+      "assets/products/card/kidilo-k03.webp",
+      "assets/products/kidilo/kidilo-k03.webp",
+      "assets/products/kidilo/kidilo-k03-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-k03.webp"
+  },
+  {
+    "id": "kidilo-m9",
+    "sku": "M9",
+    "old_image": "assets/products/kidilo/kidilo-m9.webp",
+    "new_image": "assets/products/card/kidilo-m9.webp",
+    "new_images": [
+      "assets/products/card/kidilo-m9.webp",
+      "assets/products/kidilo/kidilo-m9.webp",
+      "assets/products/kidilo/kidilo-m9-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-m9.webp"
+  },
+  {
+    "id": "kidilo-rc001",
+    "sku": "RC001",
+    "old_image": "assets/products/kidilo/kidilo-rc001.webp",
+    "new_image": "assets/products/card/kidilo-rc001.webp",
+    "new_images": [
+      "assets/products/card/kidilo-rc001.webp",
+      "assets/products/kidilo/kidilo-rc001.webp",
+      "assets/products/kidilo/kidilo-rc001-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-rc001.webp"
+  },
+  {
+    "id": "kidilo-y12",
+    "sku": "Y12",
+    "old_image": "assets/products/kidilo/kidilo-y12.webp",
+    "new_image": "assets/products/card/kidilo-y12.webp",
+    "new_images": [
+      "assets/products/card/kidilo-y12.webp",
+      "assets/products/kidilo/kidilo-y12.webp",
+      "assets/products/kidilo/kidilo-y12-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-y12.webp"
+  },
+  {
+    "id": "kidilo-g305",
+    "sku": "G305",
+    "old_image": "assets/products/kidilo/kidilo-g305.webp",
+    "new_image": "assets/products/card/kidilo-g305.webp",
+    "new_images": [
+      "assets/products/card/kidilo-g305.webp",
+      "assets/products/kidilo/kidilo-g305.webp",
+      "assets/products/kidilo/kidilo-g305-detail.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/kidilo/kidilo-g305.webp"
+  },
+  {
+    "id": "kidilo-d8",
+    "sku": "D8",
+    "old_image": "assets/products/kidilo/kidilo-d8.webp",
+    "new_image": "assets/products/card/kidilo-d8.webp",
+    "new_images": [
+      "assets/products/card/kidilo-d8.webp",
+      "assets/products/kidilo/kidilo-d8.webp",
+      "assets/products/kidilo/kidilo-d8-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-d8.webp"
+  },
+  {
+    "id": "kidilo-535",
+    "sku": "535",
+    "old_image": "assets/products/kidilo/kidilo-535.webp",
+    "new_image": "assets/products/card/kidilo-535.webp",
+    "new_images": [
+      "assets/products/card/kidilo-535.webp",
+      "assets/products/kidilo/kidilo-535.webp",
+      "assets/products/kidilo/kidilo-535-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-535.webp"
+  },
+  {
+    "id": "kidilo-08016",
+    "sku": "08016",
+    "old_image": "assets/products/kidilo/kidilo-08016.webp",
+    "new_image": "assets/products/card/kidilo-08016.webp",
+    "new_images": [
+      "assets/products/card/kidilo-08016.webp",
+      "assets/products/kidilo/kidilo-08016.webp",
+      "assets/products/kidilo/kidilo-08016-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-08016.webp"
+  },
+  {
+    "id": "kidilo-08018",
+    "sku": "08018",
+    "old_image": "assets/products/kidilo/kidilo-08018.webp",
+    "new_image": "assets/products/card/kidilo-08018.webp",
+    "new_images": [
+      "assets/products/card/kidilo-08018.webp",
+      "assets/products/kidilo/kidilo-08018.webp",
+      "assets/products/kidilo/kidilo-08018-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-08018.webp"
+  },
+  {
+    "id": "kidilo-08015",
+    "sku": "08015",
+    "old_image": "assets/products/kidilo/kidilo-08015.webp",
+    "new_image": "assets/products/card/kidilo-08015.webp",
+    "new_images": [
+      "assets/products/card/kidilo-08015.webp",
+      "assets/products/kidilo/kidilo-08015.webp",
+      "assets/products/kidilo/kidilo-08015-detail.webp"
+    ],
+    "reason": "card_normalized_cropped",
+    "source_used": "assets/products/kidilo/kidilo-08015.webp"
+  },
+  {
+    "id": "kdl_ts430",
+    "sku": "KDL-TS430",
+    "old_image": "assets/products/gear/kdl_ts430.webp",
+    "new_image": "assets/products/card/kdl_ts430.webp",
+    "new_images": [
+      "assets/products/card/kdl_ts430.webp",
+      "assets/products/gear/kdl_ts430.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_ts430.webp"
+  },
+  {
+    "id": "kdl_ts871",
+    "sku": "KDL-TS871",
+    "old_image": "assets/products/gear/kdl_ts871.webp",
+    "new_image": "assets/products/card/kdl_ts871.webp",
+    "new_images": [
+      "assets/products/card/kdl_ts871.webp",
+      "assets/products/gear/kdl_ts871.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_ts871.webp"
+  },
+  {
+    "id": "kdl_688",
+    "sku": "KDL-688",
+    "old_image": "assets/products/gear/kdl_688.webp",
+    "new_image": "assets/products/card/kdl_688.webp",
+    "new_images": [
+      "assets/products/card/kdl_688.webp",
+      "assets/products/gear/kdl_688.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_688.webp"
+  },
+  {
+    "id": "kdl_c006",
+    "sku": "KDL-C006",
+    "old_image": "assets/products/gear/kdl_c006.webp",
+    "new_image": "assets/products/card/kdl_c006.webp",
+    "new_images": [
+      "assets/products/card/kdl_c006.webp",
+      "assets/products/gear/kdl_c006.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_c006.webp"
+  },
+  {
+    "id": "kdl_x06",
+    "sku": "KDL-X06",
+    "old_image": "assets/products/gear/kdl_x06.webp",
+    "new_image": "assets/products/card/kdl_x06.webp",
+    "new_images": [
+      "assets/products/card/kdl_x06.webp",
+      "assets/products/gear/kdl_x06.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_x06.webp"
+  },
+  {
+    "id": "kdl_ts428",
+    "sku": "KDL-TS428",
+    "old_image": "assets/products/gear/kdl_ts428.webp",
+    "new_image": "assets/products/card/kdl_ts428.webp",
+    "new_images": [
+      "assets/products/card/kdl_ts428.webp",
+      "assets/products/gear/kdl_ts428.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_ts428.webp"
+  },
+  {
+    "id": "kdl_8155",
+    "sku": "KDL-8155",
+    "old_image": "assets/products/gear/kdl_8155.webp",
+    "new_image": "assets/products/card/kdl_8155.webp",
+    "new_images": [
+      "assets/products/card/kdl_8155.webp",
+      "assets/products/gear/kdl_8155.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_8155.webp"
+  },
+  {
+    "id": "kdl_8166",
+    "sku": "KDL-8166",
+    "old_image": "assets/products/gear/kdl_8166.webp",
+    "new_image": "assets/products/card/kdl_8166.webp",
+    "new_images": [
+      "assets/products/card/kdl_8166.webp",
+      "assets/products/gear/kdl_8166.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_8166.webp"
+  },
+  {
+    "id": "kdl_8131a",
+    "sku": "KDL-8131A",
+    "old_image": "assets/products/gear/kdl_8131a.webp",
+    "new_image": "assets/products/card/kdl_8131a.webp",
+    "new_images": [
+      "assets/products/card/kdl_8131a.webp",
+      "assets/products/gear/kdl_8131a.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_8131a.webp"
+  },
+  {
+    "id": "kdl_k6",
+    "sku": "KDL-K6",
+    "old_image": "assets/products/gear/kdl_k6.webp",
+    "new_image": "assets/products/card/kdl_k6.webp",
+    "new_images": [
+      "assets/products/card/kdl_k6.webp",
+      "assets/products/gear/kdl_k6.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_k6.webp"
+  },
+  {
+    "id": "kdl_k9g",
+    "sku": "KDL-K9G",
+    "old_image": "assets/products/gear/kdl_k9g.webp",
+    "new_image": "assets/products/card/kdl_k9g.webp",
+    "new_images": [
+      "assets/products/card/kdl_k9g.webp",
+      "assets/products/gear/kdl_k9g.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_k9g.webp"
+  },
+  {
+    "id": "kdl_b2",
+    "sku": "KDL-B2",
+    "old_image": "assets/products/gear/kdl_b2.webp",
+    "new_image": "assets/products/card/kdl_b2.webp",
+    "new_images": [
+      "assets/products/card/kdl_b2.webp",
+      "assets/products/gear/kdl_b2.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_b2.webp"
+  },
+  {
+    "id": "kdl_kd006",
+    "sku": "KDL-KD006",
+    "old_image": "assets/products/gear/kdl_kd006.webp",
+    "new_image": "assets/products/card/kdl_kd006.webp",
+    "new_images": [
+      "assets/products/card/kdl_kd006.webp",
+      "assets/products/gear/kdl_kd006.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_kd006.webp"
+  },
+  {
+    "id": "kdl_kd305",
+    "sku": "KDL-KD305",
+    "old_image": "assets/products/gear/kdl_kd305.webp",
+    "new_image": "assets/products/card/kdl_kd305.webp",
+    "new_images": [
+      "assets/products/card/kdl_kd305.webp",
+      "assets/products/gear/kdl_kd305.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_kd305.webp"
+  },
+  {
+    "id": "kdl_kd001",
+    "sku": "KDL-KD001",
+    "old_image": "assets/products/gear/kdl_kd001.webp",
+    "new_image": "assets/products/card/kdl_kd001.webp",
+    "new_images": [
+      "assets/products/card/kdl_kd001.webp",
+      "assets/products/gear/kdl_kd001.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_kd001.webp"
+  },
+  {
+    "id": "kdl_p07",
+    "sku": "KDL-P07",
+    "old_image": "assets/products/gear/kdl_p07.webp",
+    "new_image": "assets/products/card/kdl_p07.webp",
+    "new_images": [
+      "assets/products/card/kdl_p07.webp",
+      "assets/products/gear/kdl_p07.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_p07.webp"
+  },
+  {
+    "id": "kdl_rc003",
+    "sku": "KDL-RC003",
+    "old_image": "assets/products/gear/kdl_rc003.webp",
+    "new_image": "assets/products/card/kdl_rc003.webp",
+    "new_images": [
+      "assets/products/card/kdl_rc003.webp",
+      "assets/products/gear/kdl_rc003.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_rc003.webp"
+  },
+  {
+    "id": "kdl_p02",
+    "sku": "KDL-P02",
+    "old_image": "assets/products/gear/kdl_p02.webp",
+    "new_image": "assets/products/card/kdl_p02.webp",
+    "new_images": [
+      "assets/products/card/kdl_p02.webp",
+      "assets/products/gear/kdl_p02.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_p02.webp"
+  },
+  {
+    "id": "mst_08087",
+    "sku": "MST-08087",
+    "old_image": "assets/products/gear/mst_08087.webp",
+    "new_image": "assets/products/card/mst_08087.webp",
+    "new_images": [
+      "assets/products/card/mst_08087.webp",
+      "assets/products/gear/mst_08087.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/mst_08087.webp"
+  },
+  {
+    "id": "kdl_kd3_3",
+    "sku": "KDL-KD3-3",
+    "old_image": "assets/products/gear/kdl_kd3_3.webp",
+    "new_image": "assets/products/card/kdl_kd3_3.webp",
+    "new_images": [
+      "assets/products/card/kdl_kd3_3.webp",
+      "assets/products/gear/kdl_kd3_3.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/kdl_kd3_3.webp"
+  },
+  {
+    "id": "mst_08105",
+    "sku": "MST-08105",
+    "old_image": "assets/products/gear/mst_08105.webp",
+    "new_image": "assets/products/card/mst_08105.webp",
+    "new_images": [
+      "assets/products/card/mst_08105.webp",
+      "assets/products/gear/mst_08105.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/mst_08105.webp"
+  },
+  {
+    "id": "spm_8806c",
+    "sku": "SPM-8806C",
+    "old_image": "assets/products/gear/spm_8806c.webp",
+    "new_image": "assets/products/card/spm_8806c.webp",
+    "new_images": [
+      "assets/products/card/spm_8806c.webp",
+      "assets/products/gear/spm_8806c.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/spm_8806c.webp"
+  },
+  {
+    "id": "mst_08104",
+    "sku": "MST-08104",
+    "old_image": "assets/products/gear/mst_08104.webp",
+    "new_image": "assets/products/card/mst_08104.webp",
+    "new_images": [
+      "assets/products/card/mst_08104.webp",
+      "assets/products/gear/mst_08104.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/mst_08104.webp"
+  },
+  {
+    "id": "mst_6599",
+    "sku": "MST-6599",
+    "old_image": "assets/products/gear/mst_6599.webp",
+    "new_image": "assets/products/card/mst_6599.webp",
+    "new_images": [
+      "assets/products/card/mst_6599.webp",
+      "assets/products/gear/mst_6599.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/mst_6599.webp"
+  },
+  {
+    "id": "mst_08037",
+    "sku": "MST-08037",
+    "old_image": "assets/products/gear/mst_08037.webp",
+    "new_image": "assets/products/card/mst_08037.webp",
+    "new_images": [
+      "assets/products/card/mst_08037.webp",
+      "assets/products/gear/mst_08037.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/mst_08037.webp"
+  },
+  {
+    "id": "mst_08039",
+    "sku": "MST-08039",
+    "old_image": "assets/products/gear/mst_08039.webp",
+    "new_image": "assets/products/card/mst_08039.webp",
+    "new_images": [
+      "assets/products/card/mst_08039.webp",
+      "assets/products/gear/mst_08039.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/mst_08039.webp"
+  },
+  {
+    "id": "mst_6511",
+    "sku": "MST-6511",
+    "old_image": "assets/products/gear/mst_6511.webp",
+    "new_image": "assets/products/card/mst_6511.webp",
+    "new_images": [
+      "assets/products/card/mst_6511.webp",
+      "assets/products/gear/mst_6511.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/mst_6511.webp"
+  },
+  {
+    "id": "sms_6039",
+    "sku": "SMS-6039",
+    "old_image": "assets/products/gear/sms_6039_1.webp",
+    "new_image": "assets/products/card/sms_6039.webp",
+    "new_images": [
+      "assets/products/card/sms_6039.webp",
+      "assets/products/gear/sms_6039_1.webp",
+      "assets/products/gear/sms_6039_2.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/sms_6039_1.webp"
+  },
+  {
+    "id": "pkt_6188",
+    "sku": "PKT-6188",
+    "old_image": "assets/products/gear/pkt_6188.webp",
+    "new_image": "assets/products/card/pkt_6188.webp",
+    "new_images": [
+      "assets/products/card/pkt_6188.webp",
+      "assets/products/gear/pkt_6188.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/pkt_6188.webp"
+  },
+  {
+    "id": "hng_0814",
+    "sku": "HNG-0814",
+    "old_image": "assets/products/gear/hng_0814.webp",
+    "new_image": "assets/products/card/hng_0814.webp",
+    "new_images": [
+      "assets/products/card/hng_0814.webp",
+      "assets/products/gear/hng_0814.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/hng_0814.webp"
+  },
+  {
+    "id": "hng_he0612",
+    "sku": "HNG-HE0612",
+    "old_image": "assets/products/gear/hng_he0612.webp",
+    "new_image": "assets/products/card/hng_he0612.webp",
+    "new_images": [
+      "assets/products/card/hng_he0612.webp",
+      "assets/products/gear/hng_he0612.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/hng_he0612.webp"
+  },
+  {
+    "id": "sms_6044",
+    "sku": "SMS-6044",
+    "old_image": "assets/products/gear/sms_6044.webp",
+    "new_image": "assets/products/card/sms_6044.webp",
+    "new_images": [
+      "assets/products/card/sms_6044.webp",
+      "assets/products/gear/sms_6044.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/sms_6044.webp"
+  },
+  {
+    "id": "sbr_yl622",
+    "sku": "SBR-YL622",
+    "old_image": "assets/products/gear/sbr_yl622.webp",
+    "new_image": "assets/products/card/sbr_yl622.webp",
+    "new_images": [
+      "assets/products/card/sbr_yl622.webp",
+      "assets/products/gear/sbr_yl622.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/sbr_yl622.webp"
+  },
+  {
+    "id": "fns_668167",
+    "sku": "FNS-668167",
+    "old_image": "assets/products/gear/fns_668167.webp",
+    "new_image": "assets/products/card/fns_668167.webp",
+    "new_images": [
+      "assets/products/card/fns_668167.webp",
+      "assets/products/gear/fns_668167.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/fns_668167.webp"
+  },
+  {
+    "id": "sdm_6688",
+    "sku": "SDM-6688",
+    "old_image": "assets/products/gear/sdm_6688.webp",
+    "new_image": "assets/products/card/sdm_6688.webp",
+    "new_images": [
+      "assets/products/card/sdm_6688.webp",
+      "assets/products/gear/sdm_6688.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/sdm_6688.webp"
+  },
+  {
+    "id": "czr_2dx",
+    "sku": "CZR-2DX",
+    "old_image": "assets/products/gear/czr_2dx.webp",
+    "new_image": "assets/products/card/czr_2dx.webp",
+    "new_images": [
+      "assets/products/card/czr_2dx.webp",
+      "assets/products/gear/czr_2dx.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/czr_2dx.webp"
+  },
+  {
+    "id": "ccf_899",
+    "sku": "CCF-899",
+    "old_image": "assets/products/gear/ccf_899.webp",
+    "new_image": "assets/products/card/ccf_899.webp",
+    "new_images": [
+      "assets/products/card/ccf_899.webp",
+      "assets/products/gear/ccf_899.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/ccf_899.webp"
+  },
+  {
+    "id": "czr_3dx",
+    "sku": "CZR-3DX",
+    "old_image": "assets/products/gear/czr_3dx.webp",
+    "new_image": "assets/products/card/czr_3dx.webp",
+    "new_images": [
+      "assets/products/card/czr_3dx.webp",
+      "assets/products/gear/czr_3dx.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/czr_3dx.webp"
+  },
+  {
+    "id": "aqp_111",
+    "sku": "AQP-111",
+    "old_image": "assets/products/gear/aqp_111.webp",
+    "new_image": "assets/products/card/aqp_111.webp",
+    "new_images": [
+      "assets/products/card/aqp_111.webp",
+      "assets/products/gear/aqp_111.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/aqp_111.webp"
+  },
+  {
+    "id": "pwz_m23",
+    "sku": "PWZ-M23",
+    "old_image": "assets/products/gear/pwz_m23_1.webp",
+    "new_image": "assets/products/card/pwz_m23.webp",
+    "new_images": [
+      "assets/products/card/pwz_m23.webp",
+      "assets/products/gear/pwz_m23_1.webp",
+      "assets/products/gear/pwz_m23_2.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/pwz_m23_1.webp"
+  },
+  {
+    "id": "czr_7dx",
+    "sku": "CZR-7DX",
+    "old_image": "assets/products/gear/czr_7dx.webp",
+    "new_image": "assets/products/card/czr_7dx.webp",
+    "new_images": [
+      "assets/products/card/czr_7dx.webp",
+      "assets/products/gear/czr_7dx.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/czr_7dx.webp"
+  },
+  {
+    "id": "pwz_m16",
+    "sku": "PWZ-M16",
+    "old_image": "assets/products/gear/pwz_m16_1.webp",
+    "new_image": "assets/products/card/pwz_m16.webp",
+    "new_images": [
+      "assets/products/card/pwz_m16.webp",
+      "assets/products/gear/pwz_m16_1.webp",
+      "assets/products/gear/pwz_m16_2.webp",
+      "assets/products/gear/pwz_m16_3.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/pwz_m16_1.webp"
+  },
+  {
+    "id": "kdl_535",
+    "sku": "KDL-535",
+    "old_image": "assets/products/gear/kdl_535.webp",
+    "new_image": "assets/products/card/kdl_535.webp",
+    "new_images": [
+      "assets/products/card/kdl_535.webp",
+      "assets/products/card/kidilo-535.webp",
+      "assets/products/kidilo/kidilo-535.webp",
+      "assets/products/kidilo/kidilo-535-detail.webp"
+    ],
+    "reason": "card_normalized_verified_alt",
+    "source_used": "assets/products/kidilo/kidilo-535.webp"
+  },
+  {
+    "id": "glk_sw618",
+    "sku": "GLK-SW618",
+    "old_image": "assets/products/gear/glk_sw618.webp",
+    "new_image": "assets/products/image-verification-pending.webp",
+    "new_images": [
+      "assets/products/image-verification-pending.webp"
+    ],
+    "reason": "confirmed_wrong_hidden_pending_exact_sku",
+    "source_used": "assets/products/gear/glk_sw618.webp"
+  },
+  {
+    "id": "glk_2396",
+    "sku": "GLK-2396",
+    "old_image": "assets/products/gear/glk_2396.webp",
+    "new_image": "assets/products/image-verification-pending.webp",
+    "new_images": [
+      "assets/products/image-verification-pending.webp"
+    ],
+    "reason": "confirmed_wrong_hidden_pending_exact_sku",
+    "source_used": "assets/products/gear/glk_2396.webp"
+  },
+  {
+    "id": "zoo_6181",
+    "sku": "ZOO-6181",
+    "old_image": "assets/products/gear/zoo_6181.webp",
+    "new_image": "assets/products/card/zoo_6181.webp",
+    "new_images": [
+      "assets/products/card/zoo_6181.webp",
+      "assets/products/gear/zoo_6181.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/zoo_6181.webp"
+  },
+  {
+    "id": "glk_6191",
+    "sku": "GLK-6191",
+    "old_image": "assets/products/gear/glk_6191.webp",
+    "new_image": "assets/products/image-verification-pending.webp",
+    "new_images": [
+      "assets/products/image-verification-pending.webp"
+    ],
+    "reason": "confirmed_wrong_hidden_pending_exact_sku",
+    "source_used": "assets/products/gear/glk_6191.webp"
+  },
+  {
+    "id": "jsp_601",
+    "sku": "JSP-601",
+    "old_image": "assets/products/gear/jsp_601.webp",
+    "new_image": "assets/products/card/jsp_601.webp",
+    "new_images": [
+      "assets/products/card/jsp_601.webp",
+      "assets/products/gear/jsp_601.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/jsp_601.webp"
+  },
+  {
+    "id": "sfv_c001",
+    "sku": "SFV-C001",
+    "old_image": "assets/products/gear/sfv_c001.webp",
+    "new_image": "assets/products/image-verification-pending.webp",
+    "new_images": [
+      "assets/products/image-verification-pending.webp"
+    ],
+    "reason": "confirmed_wrong_hidden_pending_exact_sku",
+    "source_used": "assets/products/gear/sfv_c001.webp"
+  },
+  {
+    "id": "zoo_6691",
+    "sku": "ZOO-6691",
+    "old_image": "assets/products/gear/zoo_6691.webp",
+    "new_image": "assets/products/card/zoo_6691.webp",
+    "new_images": [
+      "assets/products/card/zoo_6691.webp",
+      "assets/products/gear/zoo_6691.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/zoo_6691.webp"
+  },
+  {
+    "id": "sfv_c004",
+    "sku": "SFV-C004",
+    "old_image": "assets/products/gear/sfv_c004.webp",
+    "new_image": "assets/products/image-verification-pending.webp",
+    "new_images": [
+      "assets/products/image-verification-pending.webp"
+    ],
+    "reason": "confirmed_wrong_hidden_pending_exact_sku",
+    "source_used": "assets/products/gear/sfv_c004.webp"
+  },
+  {
+    "id": "sfv_c002",
+    "sku": "SFV-C002",
+    "old_image": "assets/products/gear/sfv_c002.webp",
+    "new_image": "assets/products/image-verification-pending.webp",
+    "new_images": [
+      "assets/products/image-verification-pending.webp"
+    ],
+    "reason": "confirmed_wrong_hidden_pending_exact_sku",
+    "source_used": "assets/products/gear/sfv_c002.webp"
+  },
+  {
+    "id": "kdl_e04d",
+    "sku": "KDL-E04D",
+    "old_image": "assets/products/gear/kdl_e04d.webp",
+    "new_image": "assets/products/card/kdl_e04d.webp",
+    "new_images": [
+      "assets/products/card/kdl_e04d.webp",
+      "assets/products/card/kidilo-e04d.webp",
+      "assets/products/kidilo/kidilo-e04d.webp",
+      "assets/products/kidilo/kidilo-e04d-detail.webp"
+    ],
+    "reason": "card_normalized_verified_alt",
+    "source_used": "assets/products/kidilo/kidilo-e04d.webp"
+  },
+  {
+    "id": "spr_sw2029",
+    "sku": "SPR-SW2029",
+    "old_image": "assets/products/gear/spr_sw2029.webp",
+    "new_image": "assets/products/card/spr_sw2029.webp",
+    "new_images": [
+      "assets/products/card/spr_sw2029.webp",
+      "assets/products/gear/spr_sw2029.webp"
+    ],
+    "reason": "card_normalized",
+    "source_used": "assets/products/gear/spr_sw2029.webp"
+  }
+]

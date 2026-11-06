@@ -1,0 +1,2744 @@
+{
+  "pages": [
+    {
+      "from": "about/index.html",
+      "to": "frontend/pages/about/index.php"
+    },
+    {
+      "from": "about.html",
+      "to": "frontend/pages/about.php"
+    },
+    {
+      "from": "admin.html",
+      "to": "admin-panel/index.php"
+    },
+    {
+      "from": "articles/a1/index.html",
+      "to": "frontend/pages/articles/a1/index.php"
+    },
+    {
+      "from": "articles/a2/index.html",
+      "to": "frontend/pages/articles/a2/index.php"
+    },
+    {
+      "from": "articles/a3/index.html",
+      "to": "frontend/pages/articles/a3/index.php"
+    },
+    {
+      "from": "articles/a4/index.html",
+      "to": "frontend/pages/articles/a4/index.php"
+    },
+    {
+      "from": "articles/anti-colic-feeding-guide/index.html",
+      "to": "frontend/pages/articles/anti-colic-feeding-guide/index.php"
+    },
+    {
+      "from": "articles/bottle-sterilization-pakistan/index.html",
+      "to": "frontend/pages/articles/bottle-sterilization-pakistan/index.php"
+    },
+    {
+      "from": "articles/breast-milk-storage-rules/index.html",
+      "to": "frontend/pages/articles/breast-milk-storage-rules/index.php"
+    },
+    {
+      "from": "articles/feeder-to-straw-cup-weaning/index.html",
+      "to": "frontend/pages/articles/feeder-to-straw-cup-weaning/index.php"
+    },
+    {
+      "from": "articles/first-time-baby-gear-checklist/index.html",
+      "to": "frontend/pages/articles/first-time-baby-gear-checklist/index.php"
+    },
+    {
+      "from": "articles/index.html",
+      "to": "frontend/pages/articles/index.php"
+    },
+    {
+      "from": "articles/teat-flow-rates-guide/index.html",
+      "to": "frontend/pages/articles/teat-flow-rates-guide/index.php"
+    },
+    {
+      "from": "articles.html",
+      "to": "frontend/pages/articles.php"
+    },
+    {
+      "from": "cart.html",
+      "to": "frontend/pages/cart.php"
+    },
+    {
+      "from": "community/discussions/index.html",
+      "to": "frontend/pages/community/discussions/index.php"
+    },
+    {
+      "from": "community/index.html",
+      "to": "frontend/pages/community/index.php"
+    },
+    {
+      "from": "community.html",
+      "to": "frontend/pages/community.php"
+    },
+    {
+      "from": "edit-profile.html",
+      "to": "frontend/pages/edit-profile.php"
+    },
+    {
+      "from": "edit.html",
+      "to": "frontend/pages/edit.php"
+    },
+    {
+      "from": "index.html",
+      "to": "frontend/pages/index.php"
+    },
+    {
+      "from": "login.html",
+      "to": "frontend/pages/login.php"
+    },
+    {
+      "from": "post.html",
+      "to": "frontend/pages/post.php"
+    },
+    {
+      "from": "privacy.html",
+      "to": "frontend/pages/privacy.php"
+    },
+    {
+      "from": "product/aa-11007/index.html",
+      "to": "frontend/pages/product/aa-11007/index.php"
+    },
+    {
+      "from": "product/ah-20009-pink/index.html",
+      "to": "frontend/pages/product/ah-20009-pink/index.php"
+    },
+    {
+      "from": "product/aqp_111/index.html",
+      "to": "frontend/pages/product/aqp_111/index.php"
+    },
+    {
+      "from": "product/ba-30004/index.html",
+      "to": "frontend/pages/product/ba-30004/index.php"
+    },
+    {
+      "from": "product/ba70203-2/index.html",
+      "to": "frontend/pages/product/ba70203-2/index.php"
+    },
+    {
+      "from": "product/balhb-1732-2/index.html",
+      "to": "frontend/pages/product/balhb-1732-2/index.php"
+    },
+    {
+      "from": "product/bantn-8050-2/index.html",
+      "to": "frontend/pages/product/bantn-8050-2/index.php"
+    },
+    {
+      "from": "product/bbt026/index.html",
+      "to": "frontend/pages/product/bbt026/index.php"
+    },
+    {
+      "from": "product/bf-305-peach/index.html",
+      "to": "frontend/pages/product/bf-305-peach/index.php"
+    },
+    {
+      "from": "product/bf-305-purple/index.html",
+      "to": "frontend/pages/product/bf-305-purple/index.php"
+    },
+    {
+      "from": "product/bf-601/index.html",
+      "to": "frontend/pages/product/bf-601/index.php"
+    },
+    {
+      "from": "product/bf-634a-2/index.html",
+      "to": "frontend/pages/product/bf-634a-2/index.php"
+    },
+    {
+      "from": "product/bf-904-pink/index.html",
+      "to": "frontend/pages/product/bf-904-pink/index.php"
+    },
+    {
+      "from": "product/bg-1203/index.html",
+      "to": "frontend/pages/product/bg-1203/index.php"
+    },
+    {
+      "from": "product/bp-869-1/index.html",
+      "to": "frontend/pages/product/bp-869-1/index.php"
+    },
+    {
+      "from": "product/bp033-013/index.html",
+      "to": "frontend/pages/product/bp033-013/index.php"
+    },
+    {
+      "from": "product/ca031-27/index.html",
+      "to": "frontend/pages/product/ca031-27/index.php"
+    },
+    {
+      "from": "product/ca032-05/index.html",
+      "to": "frontend/pages/product/ca032-05/index.php"
+    },
+    {
+      "from": "product/ca2801-056/index.html",
+      "to": "frontend/pages/product/ca2801-056/index.php"
+    },
+    {
+      "from": "product/ca2801-081/index.html",
+      "to": "frontend/pages/product/ca2801-081/index.php"
+    },
+    {
+      "from": "product/ca2801-082/index.html",
+      "to": "frontend/pages/product/ca2801-082/index.php"
+    },
+    {
+      "from": "product/ca301-182/index.html",
+      "to": "frontend/pages/product/ca301-182/index.php"
+    },
+    {
+      "from": "product/ca4016-214/index.html",
+      "to": "frontend/pages/product/ca4016-214/index.php"
+    },
+    {
+      "from": "product/ca513-184/index.html",
+      "to": "frontend/pages/product/ca513-184/index.php"
+    },
+    {
+      "from": "product/ca513-187/index.html",
+      "to": "frontend/pages/product/ca513-187/index.php"
+    },
+    {
+      "from": "product/ca710-013/index.html",
+      "to": "frontend/pages/product/ca710-013/index.php"
+    },
+    {
+      "from": "product/ca8031/index.html",
+      "to": "frontend/pages/product/ca8031/index.php"
+    },
+    {
+      "from": "product/cc-1187-014/index.html",
+      "to": "frontend/pages/product/cc-1187-014/index.php"
+    },
+    {
+      "from": "product/cc-519-015/index.html",
+      "to": "frontend/pages/product/cc-519-015/index.php"
+    },
+    {
+      "from": "product/cc-8905-012/index.html",
+      "to": "frontend/pages/product/cc-8905-012/index.php"
+    },
+    {
+      "from": "product/cc-brj-1288-012/index.html",
+      "to": "frontend/pages/product/cc-brj-1288-012/index.php"
+    },
+    {
+      "from": "product/ccf_899/index.html",
+      "to": "frontend/pages/product/ccf_899/index.php"
+    },
+    {
+      "from": "product/cg508-003/index.html",
+      "to": "frontend/pages/product/cg508-003/index.php"
+    },
+    {
+      "from": "product/cn401-209/index.html",
+      "to": "frontend/pages/product/cn401-209/index.php"
+    },
+    {
+      "from": "product/cn401-211/index.html",
+      "to": "frontend/pages/product/cn401-211/index.php"
+    },
+    {
+      "from": "product/cn401-220/index.html",
+      "to": "frontend/pages/product/cn401-220/index.php"
+    },
+    {
+      "from": "product/cn401-230/index.html",
+      "to": "frontend/pages/product/cn401-230/index.php"
+    },
+    {
+      "from": "product/cn411-008/index.html",
+      "to": "frontend/pages/product/cn411-008/index.php"
+    },
+    {
+      "from": "product/cn421-235/index.html",
+      "to": "frontend/pages/product/cn421-235/index.php"
+    },
+    {
+      "from": "product/cn421-237/index.html",
+      "to": "frontend/pages/product/cn421-237/index.php"
+    },
+    {
+      "from": "product/cn421-251/index.html",
+      "to": "frontend/pages/product/cn421-251/index.php"
+    },
+    {
+      "from": "product/cn431-005/index.html",
+      "to": "frontend/pages/product/cn431-005/index.php"
+    },
+    {
+      "from": "product/cn431-008/index.html",
+      "to": "frontend/pages/product/cn431-008/index.php"
+    },
+    {
+      "from": "product/cnc-b3543u/index.html",
+      "to": "frontend/pages/product/cnc-b3543u/index.php"
+    },
+    {
+      "from": "product/cnc-b3550/index.html",
+      "to": "frontend/pages/product/cnc-b3550/index.php"
+    },
+    {
+      "from": "product/cs25-156/index.html",
+      "to": "frontend/pages/product/cs25-156/index.php"
+    },
+    {
+      "from": "product/cs26-0023/index.html",
+      "to": "frontend/pages/product/cs26-0023/index.php"
+    },
+    {
+      "from": "product/cs26-0105/index.html",
+      "to": "frontend/pages/product/cs26-0105/index.php"
+    },
+    {
+      "from": "product/cs26-0124/index.html",
+      "to": "frontend/pages/product/cs26-0124/index.php"
+    },
+    {
+      "from": "product/cs26-0133/index.html",
+      "to": "frontend/pages/product/cs26-0133/index.php"
+    },
+    {
+      "from": "product/cs26-0172/index.html",
+      "to": "frontend/pages/product/cs26-0172/index.php"
+    },
+    {
+      "from": "product/cs26-0182/index.html",
+      "to": "frontend/pages/product/cs26-0182/index.php"
+    },
+    {
+      "from": "product/cs26-0184/index.html",
+      "to": "frontend/pages/product/cs26-0184/index.php"
+    },
+    {
+      "from": "product/cs26-0187/index.html",
+      "to": "frontend/pages/product/cs26-0187/index.php"
+    },
+    {
+      "from": "product/cs26-0189/index.html",
+      "to": "frontend/pages/product/cs26-0189/index.php"
+    },
+    {
+      "from": "product/cs26-0197/index.html",
+      "to": "frontend/pages/product/cs26-0197/index.php"
+    },
+    {
+      "from": "product/cs26-0204/index.html",
+      "to": "frontend/pages/product/cs26-0204/index.php"
+    },
+    {
+      "from": "product/cs26-0207/index.html",
+      "to": "frontend/pages/product/cs26-0207/index.php"
+    },
+    {
+      "from": "product/cs26-0212/index.html",
+      "to": "frontend/pages/product/cs26-0212/index.php"
+    },
+    {
+      "from": "product/czr_2dx/index.html",
+      "to": "frontend/pages/product/czr_2dx/index.php"
+    },
+    {
+      "from": "product/czr_3dx/index.html",
+      "to": "frontend/pages/product/czr_3dx/index.php"
+    },
+    {
+      "from": "product/czr_7dx/index.html",
+      "to": "frontend/pages/product/czr_7dx/index.php"
+    },
+    {
+      "from": "product/d327/index.html",
+      "to": "frontend/pages/product/d327/index.php"
+    },
+    {
+      "from": "product/d78416/index.html",
+      "to": "frontend/pages/product/d78416/index.php"
+    },
+    {
+      "from": "product/d80093/index.html",
+      "to": "frontend/pages/product/d80093/index.php"
+    },
+    {
+      "from": "product/e03-014/index.html",
+      "to": "frontend/pages/product/e03-014/index.php"
+    },
+    {
+      "from": "product/farlin-ns/index.html",
+      "to": "frontend/pages/product/farlin-ns/index.php"
+    },
+    {
+      "from": "product/farlin-pac-glow/index.html",
+      "to": "frontend/pages/product/farlin-pac-glow/index.php"
+    },
+    {
+      "from": "product/farlin-silicone-accessory-clip-pink/index.html",
+      "to": "frontend/pages/product/farlin-silicone-accessory-clip-pink/index.php"
+    },
+    {
+      "from": "product/farlin-sipper-cup-pink-270ml/index.html",
+      "to": "frontend/pages/product/farlin-sipper-cup-pink-270ml/index.php"
+    },
+    {
+      "from": "product/fns_668167/index.html",
+      "to": "frontend/pages/product/fns_668167/index.php"
+    },
+    {
+      "from": "product/glk_2396/index.html",
+      "to": "frontend/pages/product/glk_2396/index.php"
+    },
+    {
+      "from": "product/glk_6191/index.html",
+      "to": "frontend/pages/product/glk_6191/index.php"
+    },
+    {
+      "from": "product/glk_sw618/index.html",
+      "to": "frontend/pages/product/glk_sw618/index.php"
+    },
+    {
+      "from": "product/h81417/index.html",
+      "to": "frontend/pages/product/h81417/index.php"
+    },
+    {
+      "from": "product/hng_0814/index.html",
+      "to": "frontend/pages/product/hng_0814/index.php"
+    },
+    {
+      "from": "product/hng_he0612/index.html",
+      "to": "frontend/pages/product/hng_he0612/index.php"
+    },
+    {
+      "from": "product/i78408/index.html",
+      "to": "frontend/pages/product/i78408/index.php"
+    },
+    {
+      "from": "product/i78414/index.html",
+      "to": "frontend/pages/product/i78414/index.php"
+    },
+    {
+      "from": "product/i79378/index.html",
+      "to": "frontend/pages/product/i79378/index.php"
+    },
+    {
+      "from": "product/i79894/index.html",
+      "to": "frontend/pages/product/i79894/index.php"
+    },
+    {
+      "from": "product/i80060/index.html",
+      "to": "frontend/pages/product/i80060/index.php"
+    },
+    {
+      "from": "product/ipr060438/index.html",
+      "to": "frontend/pages/product/ipr060438/index.php"
+    },
+    {
+      "from": "product/ipr060522/index.html",
+      "to": "frontend/pages/product/ipr060522/index.php"
+    },
+    {
+      "from": "product/jsp_601/index.html",
+      "to": "frontend/pages/product/jsp_601/index.php"
+    },
+    {
+      "from": "product/kdl_535/index.html",
+      "to": "frontend/pages/product/kdl_535/index.php"
+    },
+    {
+      "from": "product/kdl_688/index.html",
+      "to": "frontend/pages/product/kdl_688/index.php"
+    },
+    {
+      "from": "product/kdl_8131a/index.html",
+      "to": "frontend/pages/product/kdl_8131a/index.php"
+    },
+    {
+      "from": "product/kdl_8155/index.html",
+      "to": "frontend/pages/product/kdl_8155/index.php"
+    },
+    {
+      "from": "product/kdl_8166/index.html",
+      "to": "frontend/pages/product/kdl_8166/index.php"
+    },
+    {
+      "from": "product/kdl_b2/index.html",
+      "to": "frontend/pages/product/kdl_b2/index.php"
+    },
+    {
+      "from": "product/kdl_c006/index.html",
+      "to": "frontend/pages/product/kdl_c006/index.php"
+    },
+    {
+      "from": "product/kdl_e04d/index.html",
+      "to": "frontend/pages/product/kdl_e04d/index.php"
+    },
+    {
+      "from": "product/kdl_k6/index.html",
+      "to": "frontend/pages/product/kdl_k6/index.php"
+    },
+    {
+      "from": "product/kdl_k9g/index.html",
+      "to": "frontend/pages/product/kdl_k9g/index.php"
+    },
+    {
+      "from": "product/kdl_kd001/index.html",
+      "to": "frontend/pages/product/kdl_kd001/index.php"
+    },
+    {
+      "from": "product/kdl_kd006/index.html",
+      "to": "frontend/pages/product/kdl_kd006/index.php"
+    },
+    {
+      "from": "product/kdl_kd305/index.html",
+      "to": "frontend/pages/product/kdl_kd305/index.php"
+    },
+    {
+      "from": "product/kdl_kd3_3/index.html",
+      "to": "frontend/pages/product/kdl_kd3_3/index.php"
+    },
+    {
+      "from": "product/kdl_p02/index.html",
+      "to": "frontend/pages/product/kdl_p02/index.php"
+    },
+    {
+      "from": "product/kdl_p07/index.html",
+      "to": "frontend/pages/product/kdl_p07/index.php"
+    },
+    {
+      "from": "product/kdl_rc003/index.html",
+      "to": "frontend/pages/product/kdl_rc003/index.php"
+    },
+    {
+      "from": "product/kdl_ts428/index.html",
+      "to": "frontend/pages/product/kdl_ts428/index.php"
+    },
+    {
+      "from": "product/kdl_ts430/index.html",
+      "to": "frontend/pages/product/kdl_ts430/index.php"
+    },
+    {
+      "from": "product/kdl_ts871/index.html",
+      "to": "frontend/pages/product/kdl_ts871/index.php"
+    },
+    {
+      "from": "product/kdl_x06/index.html",
+      "to": "frontend/pages/product/kdl_x06/index.php"
+    },
+    {
+      "from": "product/kidilo-08015/index.html",
+      "to": "frontend/pages/product/kidilo-08015/index.php"
+    },
+    {
+      "from": "product/kidilo-08016/index.html",
+      "to": "frontend/pages/product/kidilo-08016/index.php"
+    },
+    {
+      "from": "product/kidilo-08018/index.html",
+      "to": "frontend/pages/product/kidilo-08018/index.php"
+    },
+    {
+      "from": "product/kidilo-535/index.html",
+      "to": "frontend/pages/product/kidilo-535/index.php"
+    },
+    {
+      "from": "product/kidilo-6018/index.html",
+      "to": "frontend/pages/product/kidilo-6018/index.php"
+    },
+    {
+      "from": "product/kidilo-b01/index.html",
+      "to": "frontend/pages/product/kidilo-b01/index.php"
+    },
+    {
+      "from": "product/kidilo-d8/index.html",
+      "to": "frontend/pages/product/kidilo-d8/index.php"
+    },
+    {
+      "from": "product/kidilo-e04d/index.html",
+      "to": "frontend/pages/product/kidilo-e04d/index.php"
+    },
+    {
+      "from": "product/kidilo-e560/index.html",
+      "to": "frontend/pages/product/kidilo-e560/index.php"
+    },
+    {
+      "from": "product/kidilo-g303/index.html",
+      "to": "frontend/pages/product/kidilo-g303/index.php"
+    },
+    {
+      "from": "product/kidilo-g305/index.html",
+      "to": "frontend/pages/product/kidilo-g305/index.php"
+    },
+    {
+      "from": "product/kidilo-g310/index.html",
+      "to": "frontend/pages/product/kidilo-g310/index.php"
+    },
+    {
+      "from": "product/kidilo-k03/index.html",
+      "to": "frontend/pages/product/kidilo-k03/index.php"
+    },
+    {
+      "from": "product/kidilo-kbh311/index.html",
+      "to": "frontend/pages/product/kidilo-kbh311/index.php"
+    },
+    {
+      "from": "product/kidilo-kd015/index.html",
+      "to": "frontend/pages/product/kidilo-kd015/index.php"
+    },
+    {
+      "from": "product/kidilo-kd018/index.html",
+      "to": "frontend/pages/product/kidilo-kd018/index.php"
+    },
+    {
+      "from": "product/kidilo-kd3-3/index.html",
+      "to": "frontend/pages/product/kidilo-kd3-3/index.php"
+    },
+    {
+      "from": "product/kidilo-kd616/index.html",
+      "to": "frontend/pages/product/kidilo-kd616/index.php"
+    },
+    {
+      "from": "product/kidilo-m9/index.html",
+      "to": "frontend/pages/product/kidilo-m9/index.php"
+    },
+    {
+      "from": "product/kidilo-p07/index.html",
+      "to": "frontend/pages/product/kidilo-p07/index.php"
+    },
+    {
+      "from": "product/kidilo-rc001/index.html",
+      "to": "frontend/pages/product/kidilo-rc001/index.php"
+    },
+    {
+      "from": "product/kidilo-rc002/index.html",
+      "to": "frontend/pages/product/kidilo-rc002/index.php"
+    },
+    {
+      "from": "product/kidilo-rc003/index.html",
+      "to": "frontend/pages/product/kidilo-rc003/index.php"
+    },
+    {
+      "from": "product/kidilo-y12/index.html",
+      "to": "frontend/pages/product/kidilo-y12/index.php"
+    },
+    {
+      "from": "product/lcc-7168/index.html",
+      "to": "frontend/pages/product/lcc-7168/index.php"
+    },
+    {
+      "from": "product/lt-2267/index.html",
+      "to": "frontend/pages/product/lt-2267/index.php"
+    },
+    {
+      "from": "product/lt-240803/index.html",
+      "to": "frontend/pages/product/lt-240803/index.php"
+    },
+    {
+      "from": "product/lt-5154/index.html",
+      "to": "frontend/pages/product/lt-5154/index.php"
+    },
+    {
+      "from": "product/lt-698-93/index.html",
+      "to": "frontend/pages/product/lt-698-93/index.php"
+    },
+    {
+      "from": "product/lt-wp006-02/index.html",
+      "to": "frontend/pages/product/lt-wp006-02/index.php"
+    },
+    {
+      "from": "product/lv08573/index.html",
+      "to": "frontend/pages/product/lv08573/index.php"
+    },
+    {
+      "from": "product/lv39394/index.html",
+      "to": "frontend/pages/product/lv39394/index.php"
+    },
+    {
+      "from": "product/lv39402/index.html",
+      "to": "frontend/pages/product/lv39402/index.php"
+    },
+    {
+      "from": "product/lvbp53488/index.html",
+      "to": "frontend/pages/product/lvbp53488/index.php"
+    },
+    {
+      "from": "product/lvbp71592/index.html",
+      "to": "frontend/pages/product/lvbp71592/index.php"
+    },
+    {
+      "from": "product/lvbp71594/index.html",
+      "to": "frontend/pages/product/lvbp71594/index.php"
+    },
+    {
+      "from": "product/lvbp71827/index.html",
+      "to": "frontend/pages/product/lvbp71827/index.php"
+    },
+    {
+      "from": "product/lvbs73697/index.html",
+      "to": "frontend/pages/product/lvbs73697/index.php"
+    },
+    {
+      "from": "product/lvd09600/index.html",
+      "to": "frontend/pages/product/lvd09600/index.php"
+    },
+    {
+      "from": "product/mst_08037/index.html",
+      "to": "frontend/pages/product/mst_08037/index.php"
+    },
+    {
+      "from": "product/mst_08039/index.html",
+      "to": "frontend/pages/product/mst_08039/index.php"
+    },
+    {
+      "from": "product/mst_08087/index.html",
+      "to": "frontend/pages/product/mst_08087/index.php"
+    },
+    {
+      "from": "product/mst_08104/index.html",
+      "to": "frontend/pages/product/mst_08104/index.php"
+    },
+    {
+      "from": "product/mst_08105/index.html",
+      "to": "frontend/pages/product/mst_08105/index.php"
+    },
+    {
+      "from": "product/mst_6511/index.html",
+      "to": "frontend/pages/product/mst_6511/index.php"
+    },
+    {
+      "from": "product/mst_6599/index.html",
+      "to": "frontend/pages/product/mst_6599/index.php"
+    },
+    {
+      "from": "product/n666/index.html",
+      "to": "frontend/pages/product/n666/index.php"
+    },
+    {
+      "from": "product/n79883/index.html",
+      "to": "frontend/pages/product/n79883/index.php"
+    },
+    {
+      "from": "product/philips-avent-citric-acid-10g/index.html",
+      "to": "frontend/pages/product/philips-avent-citric-acid-10g/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd150-11b/index.html",
+      "to": "frontend/pages/product/philips-avent-scd150-11b/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd150-11g/index.html",
+      "to": "frontend/pages/product/philips-avent-scd150-11g/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd150-50/index.html",
+      "to": "frontend/pages/product/philips-avent-scd150-50/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd150-60/index.html",
+      "to": "frontend/pages/product/philips-avent-scd150-60/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd180-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scd180-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd627-13/index.html",
+      "to": "frontend/pages/product/philips-avent-scd627-13/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd628-13/index.html",
+      "to": "frontend/pages/product/philips-avent-scd628-13/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd657-11/index.html",
+      "to": "frontend/pages/product/philips-avent-scd657-11/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd838-11/index.html",
+      "to": "frontend/pages/product/philips-avent-scd838-11/index.php"
+    },
+    {
+      "from": "product/philips-avent-scd878-11/index.html",
+      "to": "frontend/pages/product/philips-avent-scd878-11/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf039-17/index.html",
+      "to": "frontend/pages/product/philips-avent-scf039-17/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf080-05/index.html",
+      "to": "frontend/pages/product/philips-avent-scf080-05/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf080-06/index.html",
+      "to": "frontend/pages/product/philips-avent-scf080-06/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf080-07/index.html",
+      "to": "frontend/pages/product/philips-avent-scf080-07/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf080-08/index.html",
+      "to": "frontend/pages/product/philips-avent-scf080-08/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf085-04/index.html",
+      "to": "frontend/pages/product/philips-avent-scf085-04/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf086-03/index.html",
+      "to": "frontend/pages/product/philips-avent-scf086-03/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf086-04/index.html",
+      "to": "frontend/pages/product/philips-avent-scf086-04/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf086-05/index.html",
+      "to": "frontend/pages/product/philips-avent-scf086-05/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf086-06/index.html",
+      "to": "frontend/pages/product/philips-avent-scf086-06/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf091-07/index.html",
+      "to": "frontend/pages/product/philips-avent-scf091-07/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf091-09/index.html",
+      "to": "frontend/pages/product/philips-avent-scf091-09/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf091-15/index.html",
+      "to": "frontend/pages/product/philips-avent-scf091-15/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf091-18/index.html",
+      "to": "frontend/pages/product/philips-avent-scf091-18/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf099-21/index.html",
+      "to": "frontend/pages/product/philips-avent-scf099-21/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf099-22/index.html",
+      "to": "frontend/pages/product/philips-avent-scf099-22/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf135-06/index.html",
+      "to": "frontend/pages/product/philips-avent-scf135-06/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf135-07/index.html",
+      "to": "frontend/pages/product/philips-avent-scf135-07/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf145-06/index.html",
+      "to": "frontend/pages/product/philips-avent-scf145-06/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf145-07/index.html",
+      "to": "frontend/pages/product/philips-avent-scf145-07/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf172-30/index.html",
+      "to": "frontend/pages/product/philips-avent-scf172-30/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf191-11/index.html",
+      "to": "frontend/pages/product/philips-avent-scf191-11/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf254-10/index.html",
+      "to": "frontend/pages/product/philips-avent-scf254-10/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf254-61/index.html",
+      "to": "frontend/pages/product/philips-avent-scf254-61/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf291-00/index.html",
+      "to": "frontend/pages/product/philips-avent-scf291-00/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf293-00/index.html",
+      "to": "frontend/pages/product/philips-avent-scf293-00/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf330-13/index.html",
+      "to": "frontend/pages/product/philips-avent-scf330-13/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf348-11/index.html",
+      "to": "frontend/pages/product/philips-avent-scf348-11/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf349-18/index.html",
+      "to": "frontend/pages/product/philips-avent-scf349-18/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf349-22/index.html",
+      "to": "frontend/pages/product/philips-avent-scf349-22/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf355-09/index.html",
+      "to": "frontend/pages/product/philips-avent-scf355-09/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf358-00/index.html",
+      "to": "frontend/pages/product/philips-avent-scf358-00/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf376-18/index.html",
+      "to": "frontend/pages/product/philips-avent-scf376-18/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf376-19/index.html",
+      "to": "frontend/pages/product/philips-avent-scf376-19/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf391-11/index.html",
+      "to": "frontend/pages/product/philips-avent-scf391-11/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf430-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scf430-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf546-12/index.html",
+      "to": "frontend/pages/product/philips-avent-scf546-12/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf551-03/index.html",
+      "to": "frontend/pages/product/philips-avent-scf551-03/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf551-05/index.html",
+      "to": "frontend/pages/product/philips-avent-scf551-05/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf619-05/index.html",
+      "to": "frontend/pages/product/philips-avent-scf619-05/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf631-27/index.html",
+      "to": "frontend/pages/product/philips-avent-scf631-27/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf632-27/index.html",
+      "to": "frontend/pages/product/philips-avent-scf632-27/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf796-00/index.html",
+      "to": "frontend/pages/product/philips-avent-scf796-00/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf798-00/index.html",
+      "to": "frontend/pages/product/philips-avent-scf798-00/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf900-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scf900-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scf968-21/index.html",
+      "to": "frontend/pages/product/philips-avent-scf968-21/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy100-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy100-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy103-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy103-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy103-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy103-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy106-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy106-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy106-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy106-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy670-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy670-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy670-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy670-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy673-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy673-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy673-81/index.html",
+      "to": "frontend/pages/product/philips-avent-scy673-81/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy673-82/index.html",
+      "to": "frontend/pages/product/philips-avent-scy673-82/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy761-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy761-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy762-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy762-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy763-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy763-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy764-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy764-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy900-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy900-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy900-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy900-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy903-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy903-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy903-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy903-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy903-11/index.html",
+      "to": "frontend/pages/product/philips-avent-scy903-11/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy903-21/index.html",
+      "to": "frontend/pages/product/philips-avent-scy903-21/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy903-66/index.html",
+      "to": "frontend/pages/product/philips-avent-scy903-66/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy903-67/index.html",
+      "to": "frontend/pages/product/philips-avent-scy903-67/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy906-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy906-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy906-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy906-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy930-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy930-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy933-01/index.html",
+      "to": "frontend/pages/product/philips-avent-scy933-01/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy961-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy961-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy962-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy962-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy963-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy963-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy964-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy964-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy965-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy965-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy966-02/index.html",
+      "to": "frontend/pages/product/philips-avent-scy966-02/index.php"
+    },
+    {
+      "from": "product/philips-avent-scy966-12/index.html",
+      "to": "frontend/pages/product/philips-avent-scy966-12/index.php"
+    },
+    {
+      "from": "product/pigeon-jojoba-baby-liquid-soap-200ml-1/index.html",
+      "to": "frontend/pages/product/pigeon-jojoba-baby-liquid-soap-200ml-1/index.php"
+    },
+    {
+      "from": "product/pkt_6188/index.html",
+      "to": "frontend/pages/product/pkt_6188/index.php"
+    },
+    {
+      "from": "product/pwz_m16/index.html",
+      "to": "frontend/pages/product/pwz_m16/index.php"
+    },
+    {
+      "from": "product/pwz_m23/index.html",
+      "to": "frontend/pages/product/pwz_m23/index.php"
+    },
+    {
+      "from": "product/q81468/index.html",
+      "to": "frontend/pages/product/q81468/index.php"
+    },
+    {
+      "from": "product/sbr_yl622/index.html",
+      "to": "frontend/pages/product/sbr_yl622/index.php"
+    },
+    {
+      "from": "product/scf430-01/index.html",
+      "to": "frontend/pages/product/scf430-01/index.php"
+    },
+    {
+      "from": "product/scf796-00blue/index.html",
+      "to": "frontend/pages/product/scf796-00blue/index.php"
+    },
+    {
+      "from": "product/sdm_6688/index.html",
+      "to": "frontend/pages/product/sdm_6688/index.php"
+    },
+    {
+      "from": "product/sfv_c001/index.html",
+      "to": "frontend/pages/product/sfv_c001/index.php"
+    },
+    {
+      "from": "product/sfv_c002/index.html",
+      "to": "frontend/pages/product/sfv_c002/index.php"
+    },
+    {
+      "from": "product/sfv_c004/index.html",
+      "to": "frontend/pages/product/sfv_c004/index.php"
+    },
+    {
+      "from": "product/sms_6039/index.html",
+      "to": "frontend/pages/product/sms_6039/index.php"
+    },
+    {
+      "from": "product/sms_6044/index.html",
+      "to": "frontend/pages/product/sms_6044/index.php"
+    },
+    {
+      "from": "product/spm_8806c/index.html",
+      "to": "frontend/pages/product/spm_8806c/index.php"
+    },
+    {
+      "from": "product/spr_sw2029/index.html",
+      "to": "frontend/pages/product/spr_sw2029/index.php"
+    },
+    {
+      "from": "product/t001-016/index.html",
+      "to": "frontend/pages/product/t001-016/index.php"
+    },
+    {
+      "from": "product/t011-016/index.html",
+      "to": "frontend/pages/product/t011-016/index.php"
+    },
+    {
+      "from": "product/t031-024/index.html",
+      "to": "frontend/pages/product/t031-024/index.php"
+    },
+    {
+      "from": "product/t032-012/index.html",
+      "to": "frontend/pages/product/t032-012/index.php"
+    },
+    {
+      "from": "product/t051-016/index.html",
+      "to": "frontend/pages/product/t051-016/index.php"
+    },
+    {
+      "from": "product/t061-020/index.html",
+      "to": "frontend/pages/product/t061-020/index.php"
+    },
+    {
+      "from": "product/t072-022/index.html",
+      "to": "frontend/pages/product/t072-022/index.php"
+    },
+    {
+      "from": "product/t1104-012/index.html",
+      "to": "frontend/pages/product/t1104-012/index.php"
+    },
+    {
+      "from": "product/t5006-a/index.html",
+      "to": "frontend/pages/product/t5006-a/index.php"
+    },
+    {
+      "from": "product/t526/index.html",
+      "to": "frontend/pages/product/t526/index.php"
+    },
+    {
+      "from": "product/t6002-a/index.html",
+      "to": "frontend/pages/product/t6002-a/index.php"
+    },
+    {
+      "from": "product/t612/index.html",
+      "to": "frontend/pages/product/t612/index.php"
+    },
+    {
+      "from": "product/t704/index.html",
+      "to": "frontend/pages/product/t704/index.php"
+    },
+    {
+      "from": "product/t902-021/index.html",
+      "to": "frontend/pages/product/t902-021/index.php"
+    },
+    {
+      "from": "product/ta118-107/index.html",
+      "to": "frontend/pages/product/ta118-107/index.php"
+    },
+    {
+      "from": "product/ta118-139/index.html",
+      "to": "frontend/pages/product/ta118-139/index.php"
+    },
+    {
+      "from": "product/ta119-138/index.html",
+      "to": "frontend/pages/product/ta119-138/index.php"
+    },
+    {
+      "from": "product/ta120-332/index.html",
+      "to": "frontend/pages/product/ta120-332/index.php"
+    },
+    {
+      "from": "product/ta120-342/index.html",
+      "to": "frontend/pages/product/ta120-342/index.php"
+    },
+    {
+      "from": "product/ta121-181/index.html",
+      "to": "frontend/pages/product/ta121-181/index.php"
+    },
+    {
+      "from": "product/ta121-205/index.html",
+      "to": "frontend/pages/product/ta121-205/index.php"
+    },
+    {
+      "from": "product/ta211-86/index.html",
+      "to": "frontend/pages/product/ta211-86/index.php"
+    },
+    {
+      "from": "product/ta3015-003/index.html",
+      "to": "frontend/pages/product/ta3015-003/index.php"
+    },
+    {
+      "from": "product/ta317-004/index.html",
+      "to": "frontend/pages/product/ta317-004/index.php"
+    },
+    {
+      "from": "product/ta483-301/index.html",
+      "to": "frontend/pages/product/ta483-301/index.php"
+    },
+    {
+      "from": "product/ta497-036/index.html",
+      "to": "frontend/pages/product/ta497-036/index.php"
+    },
+    {
+      "from": "product/ta502-032/index.html",
+      "to": "frontend/pages/product/ta502-032/index.php"
+    },
+    {
+      "from": "product/ta6006/index.html",
+      "to": "frontend/pages/product/ta6006/index.php"
+    },
+    {
+      "from": "product/ta606-109/index.html",
+      "to": "frontend/pages/product/ta606-109/index.php"
+    },
+    {
+      "from": "product/ta609-87/index.html",
+      "to": "frontend/pages/product/ta609-87/index.php"
+    },
+    {
+      "from": "product/ta6205/index.html",
+      "to": "frontend/pages/product/ta6205/index.php"
+    },
+    {
+      "from": "product/ta636-036/index.html",
+      "to": "frontend/pages/product/ta636-036/index.php"
+    },
+    {
+      "from": "product/ta6502-1/index.html",
+      "to": "frontend/pages/product/ta6502-1/index.php"
+    },
+    {
+      "from": "product/ta6505/index.html",
+      "to": "frontend/pages/product/ta6505/index.php"
+    },
+    {
+      "from": "product/ta813-056-003/index.html",
+      "to": "frontend/pages/product/ta813-056-003/index.php"
+    },
+    {
+      "from": "product/ta988-108/index.html",
+      "to": "frontend/pages/product/ta988-108/index.php"
+    },
+    {
+      "from": "product/tinnies-baby-high-chair-w-swing-blue/index.html",
+      "to": "frontend/pages/product/tinnies-baby-high-chair-w-swing-blue/index.php"
+    },
+    {
+      "from": "product/top-8088-red/index.html",
+      "to": "frontend/pages/product/top-8088-red/index.php"
+    },
+    {
+      "from": "product/ts113/index.html",
+      "to": "frontend/pages/product/ts113/index.php"
+    },
+    {
+      "from": "product/tt-150ml-decorated-natural-start-bottle-tommee-tippee-423914/index.html",
+      "to": "frontend/pages/product/tt-150ml-decorated-natural-start-bottle-tommee-tippee-423914/index.php"
+    },
+    {
+      "from": "product/tt-1x-insulated-straw-cup-al-il-pink-tommee-tippee-266ml-447825/index.html",
+      "to": "frontend/pages/product/tt-1x-insulated-straw-cup-al-il-pink-tommee-tippee-266ml-447825/index.php"
+    },
+    {
+      "from": "product/tt-1x-trnr-straw-cup-al-il-green-tommee-tippee-300ml-447830/index.html",
+      "to": "frontend/pages/product/tt-1x-trnr-straw-cup-al-il-green-tommee-tippee-300ml-447830/index.php"
+    },
+    {
+      "from": "product/tt-260ml-9oz-dec-adv-anti-colic-bottle-girl-tommee-tippee-422656/index.html",
+      "to": "frontend/pages/product/tt-260ml-9oz-dec-adv-anti-colic-bottle-girl-tommee-tippee-422656/index.php"
+    },
+    {
+      "from": "product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403/index.html",
+      "to": "frontend/pages/product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403/index.php"
+    },
+    {
+      "from": "product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v2/index.html",
+      "to": "frontend/pages/product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v2/index.php"
+    },
+    {
+      "from": "product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v3/index.html",
+      "to": "frontend/pages/product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v3/index.php"
+    },
+    {
+      "from": "product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v4/index.html",
+      "to": "frontend/pages/product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v4/index.php"
+    },
+    {
+      "from": "product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v5/index.html",
+      "to": "frontend/pages/product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v5/index.php"
+    },
+    {
+      "from": "product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v6/index.html",
+      "to": "frontend/pages/product/tt-air-soother-pack-of-2-tommee-tippee-18-36m-433403-v6/index.php"
+    },
+    {
+      "from": "product/tt-air-soother-with-case-tommee-tippee-6-18m-433378/index.html",
+      "to": "frontend/pages/product/tt-air-soother-with-case-tommee-tippee-6-18m-433378/index.php"
+    },
+    {
+      "from": "product/tt-baby-brush-and-comb-tommee-tippee-433099/index.html",
+      "to": "frontend/pages/product/tt-baby-brush-and-comb-tommee-tippee-433099/index.php"
+    },
+    {
+      "from": "product/tt-baby-grooming-kit-essential-newborn-care-items-9-pcs/index.html",
+      "to": "frontend/pages/product/tt-baby-grooming-kit-essential-newborn-care-items-9-pcs/index.php"
+    },
+    {
+      "from": "product/tt-baby-nail-file-423772/index.html",
+      "to": "frontend/pages/product/tt-baby-nail-file-423772/index.php"
+    },
+    {
+      "from": "product/tt-baby-sleeping-bag-18-36m-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-baby-sleeping-bag-18-36m-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-baby-sleeping-bag-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-baby-sleeping-bag-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-baby-sleeping-bag-damage-packaging-v2/index.html",
+      "to": "frontend/pages/product/tt-baby-sleeping-bag-damage-packaging-v2/index.php"
+    },
+    {
+      "from": "product/tt-baby-sleeping-bag-damage-packaging-v3/index.html",
+      "to": "frontend/pages/product/tt-baby-sleeping-bag-damage-packaging-v3/index.php"
+    },
+    {
+      "from": "product/tt-baby-sleeping-bag-damage-packaging-v4/index.html",
+      "to": "frontend/pages/product/tt-baby-sleeping-bag-damage-packaging-v4/index.php"
+    },
+    {
+      "from": "product/tt-bottle-teat-brush-tommee-tippee-421116/index.html",
+      "to": "frontend/pages/product/tt-bottle-teat-brush-tommee-tippee-421116/index.php"
+    },
+    {
+      "from": "product/tt-breast-like-soothers-0-6m-433627/index.html",
+      "to": "frontend/pages/product/tt-breast-like-soothers-0-6m-433627/index.php"
+    },
+    {
+      "from": "product/tt-breast-like-soothers-6-18m-433628/index.html",
+      "to": "frontend/pages/product/tt-breast-like-soothers-6-18m-433628/index.php"
+    },
+    {
+      "from": "product/tt-breast-milk-pouch-bottle-180ml-422470-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-breast-milk-pouch-bottle-180ml-422470-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-cherry-latex-soother-2-pk-tommee-tippee-0-6m-433532/index.html",
+      "to": "frontend/pages/product/tt-cherry-latex-soother-2-pk-tommee-tippee-0-6m-433532/index.php"
+    },
+    {
+      "from": "product/tt-cherry-latex-soother-2-pk-tommee-tippee-0-6m-433532-v2/index.html",
+      "to": "frontend/pages/product/tt-cherry-latex-soother-2-pk-tommee-tippee-0-6m-433532-v2/index.php"
+    },
+    {
+      "from": "product/tt-cherry-latex-soother-2-pk-tommee-tippee-18-36m-433534/index.html",
+      "to": "frontend/pages/product/tt-cherry-latex-soother-2-pk-tommee-tippee-18-36m-433534/index.php"
+    },
+    {
+      "from": "product/tt-cherry-latex-soother-2-pk-tommee-tippee-6-18m-433533/index.html",
+      "to": "frontend/pages/product/tt-cherry-latex-soother-2-pk-tommee-tippee-6-18m-433533/index.php"
+    },
+    {
+      "from": "product/tt-cherry-latex-soother-2-pk-tommee-tippee-6-18m-433533-v2/index.html",
+      "to": "frontend/pages/product/tt-cherry-latex-soother-2-pk-tommee-tippee-6-18m-433533-v2/index.php"
+    },
+    {
+      "from": "product/tt-closer-to-nature-digital-monitor-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-closer-to-nature-digital-monitor-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-closer-to-nature-orthodontic-soothers-pack-of-2-6-18m-433358/index.html",
+      "to": "frontend/pages/product/tt-closer-to-nature-orthodontic-soothers-pack-of-2-6-18m-433358/index.php"
+    },
+    {
+      "from": "product/tt-closer-to-nature-orthodontic-soothers-pack-of-2-6-18m-433358-v2/index.html",
+      "to": "frontend/pages/product/tt-closer-to-nature-orthodontic-soothers-pack-of-2-6-18m-433358-v2/index.php"
+    },
+    {
+      "from": "product/tt-complete-breast-milk-starter-set-express-go-tommee-tippee-423570/index.html",
+      "to": "frontend/pages/product/tt-complete-breast-milk-starter-set-express-go-tommee-tippee-423570/index.php"
+    },
+    {
+      "from": "product/tt-decorated-ultimate-fit-soother-18-36m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-decorated-ultimate-fit-soother-18-36m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-decorated-ultimate-fit-soother-18-36m-pack-of-2-v2/index.html",
+      "to": "frontend/pages/product/tt-decorated-ultimate-fit-soother-18-36m-pack-of-2-v2/index.php"
+    },
+    {
+      "from": "product/tt-double-electric-breast-pump-tommee-tippee-423698/index.html",
+      "to": "frontend/pages/product/tt-double-electric-breast-pump-tommee-tippee-423698/index.php"
+    },
+    {
+      "from": "product/tt-essential-baby-scissor-tommee-tippee-433044/index.html",
+      "to": "frontend/pages/product/tt-essential-baby-scissor-tommee-tippee-433044/index.php"
+    },
+    {
+      "from": "product/tt-express-and-go-breast-milk-starter-kit-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-express-and-go-breast-milk-starter-kit-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-express-and-go-storage-case-white-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-express-and-go-storage-case-white-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-express-go-breast-pump-adapter-set-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-express-go-breast-pump-adapter-set-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-feeding-bowl-easy-scoop-tommee-tippee-446718/index.html",
+      "to": "frontend/pages/product/tt-feeding-bowl-easy-scoop-tommee-tippee-446718/index.php"
+    },
+    {
+      "from": "product/tt-filter-bottle-replacement-filters-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-filter-bottle-replacement-filters-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-food-pouch-spoon-x2-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-food-pouch-spoon-x2-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-forehead-thermometer-tommee-tippee-423035/index.html",
+      "to": "frontend/pages/product/tt-forehead-thermometer-tommee-tippee-423035/index.php"
+    },
+    {
+      "from": "product/tt-fun-soothers-pack-of-2-0-6m-433357/index.html",
+      "to": "frontend/pages/product/tt-fun-soothers-pack-of-2-0-6m-433357/index.php"
+    },
+    {
+      "from": "product/tt-fun-soothers-pack-of-2-0-6m-433357-v2/index.html",
+      "to": "frontend/pages/product/tt-fun-soothers-pack-of-2-0-6m-433357-v2/index.php"
+    },
+    {
+      "from": "product/tt-fun-soothers-pack-of-2-0-6m-433357-v3/index.html",
+      "to": "frontend/pages/product/tt-fun-soothers-pack-of-2-0-6m-433357-v3/index.php"
+    },
+    {
+      "from": "product/tt-insulated-sporty-spout-straw-cup-blue-448013/index.html",
+      "to": "frontend/pages/product/tt-insulated-sporty-spout-straw-cup-blue-448013/index.php"
+    },
+    {
+      "from": "product/tt-insulated-sporty-spout-straw-cup-pink-448017/index.html",
+      "to": "frontend/pages/product/tt-insulated-sporty-spout-straw-cup-pink-448017/index.php"
+    },
+    {
+      "from": "product/tt-large-no-knock-cup-purple-tommee-tippee-248039-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-large-no-knock-cup-purple-tommee-tippee-248039-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-large-no-knock-cup-yellow-tommee-tippee-248038-damage-packaging/index.html",
+      "to": "frontend/pages/product/tt-large-no-knock-cup-yellow-tommee-tippee-248038-damage-packaging/index.php"
+    },
+    {
+      "from": "product/tt-made-for-me-electric-breast-pump/index.html",
+      "to": "frontend/pages/product/tt-made-for-me-electric-breast-pump/index.php"
+    },
+    {
+      "from": "product/tt-made-for-metm-single-electric-breast-pump-223251/index.html",
+      "to": "frontend/pages/product/tt-made-for-metm-single-electric-breast-pump-223251/index.php"
+    },
+    {
+      "from": "product/tt-manual-breast-pump-tommee-tippee-423697/index.html",
+      "to": "frontend/pages/product/tt-manual-breast-pump-tommee-tippee-423697/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-baby-bottle-150ml-5oz/index.html",
+      "to": "frontend/pages/product/tt-natural-start-baby-bottle-150ml-5oz/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-baby-bottle-150ml-5oz-v2/index.html",
+      "to": "frontend/pages/product/tt-natural-start-baby-bottle-150ml-5oz-v2/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-baby-bottle-260ml-9oz/index.html",
+      "to": "frontend/pages/product/tt-natural-start-baby-bottle-260ml-9oz/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-baby-bottle-260ml-9oz-v2/index.html",
+      "to": "frontend/pages/product/tt-natural-start-baby-bottle-260ml-9oz-v2/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-baby-bottles-pack-of-2-260ml/index.html",
+      "to": "frontend/pages/product/tt-natural-start-baby-bottles-pack-of-2-260ml/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-baby-bottles-pack-of-2-260ml-v2/index.html",
+      "to": "frontend/pages/product/tt-natural-start-baby-bottles-pack-of-2-260ml-v2/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-bottle-storage-lids-pack-of-4/index.html",
+      "to": "frontend/pages/product/tt-natural-start-bottle-storage-lids-pack-of-4/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-extra-slow-flow-teats-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-natural-start-extra-slow-flow-teats-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-fast-flow-teats-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-natural-start-fast-flow-teats-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-glass-baby-bottle-150ml-5oz/index.html",
+      "to": "frontend/pages/product/tt-natural-start-glass-baby-bottle-150ml-5oz/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-slow-flow-teats-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-natural-start-slow-flow-teats-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-natural-start-vari-flow-teats-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-natural-start-vari-flow-teats-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-newborn-silicone-soothers-0-2m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-newborn-silicone-soothers-0-2m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-night-glow-ultralight-soother-6-18m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-night-glow-ultralight-soother-6-18m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-night-glow-ultralight-soother-6-18m-pack-of-2-v2/index.html",
+      "to": "frontend/pages/product/tt-night-glow-ultralight-soother-6-18m-pack-of-2-v2/index.php"
+    },
+    {
+      "from": "product/tt-night-time-soother-0-6m/index.html",
+      "to": "frontend/pages/product/tt-night-time-soother-0-6m/index.php"
+    },
+    {
+      "from": "product/tt-night-time-soother-18-36m/index.html",
+      "to": "frontend/pages/product/tt-night-time-soother-18-36m/index.php"
+    },
+    {
+      "from": "product/tt-night-time-soother-18-36m-v2/index.html",
+      "to": "frontend/pages/product/tt-night-time-soother-18-36m-v2/index.php"
+    },
+    {
+      "from": "product/tt-night-time-soother-18-36m-v3/index.html",
+      "to": "frontend/pages/product/tt-night-time-soother-18-36m-v3/index.php"
+    },
+    {
+      "from": "product/tt-night-time-soother-2-pk-tommee-tippee-0-6m-433380/index.html",
+      "to": "frontend/pages/product/tt-night-time-soother-2-pk-tommee-tippee-0-6m-433380/index.php"
+    },
+    {
+      "from": "product/tt-night-time-soother-2-pk-tommee-tippee-18-36m-433400/index.html",
+      "to": "frontend/pages/product/tt-night-time-soother-2-pk-tommee-tippee-18-36m-433400/index.php"
+    },
+    {
+      "from": "product/tt-on-the-go-bottle-warmer-tommee-tippee-423770/index.html",
+      "to": "frontend/pages/product/tt-on-the-go-bottle-warmer-tommee-tippee-423770/index.php"
+    },
+    {
+      "from": "product/tt-on-the-go-straw-cup-18m-500ml-447858/index.html",
+      "to": "frontend/pages/product/tt-on-the-go-straw-cup-18m-500ml-447858/index.php"
+    },
+    {
+      "from": "product/tt-on-the-go-straw-cup-18m-500ml-447858-v2/index.html",
+      "to": "frontend/pages/product/tt-on-the-go-straw-cup-18m-500ml-447858-v2/index.php"
+    },
+    {
+      "from": "product/tt-on-the-go-straw-cup-18m-500ml-447858-v3/index.html",
+      "to": "frontend/pages/product/tt-on-the-go-straw-cup-18m-500ml-447858-v3/index.php"
+    },
+    {
+      "from": "product/tt-perfect-prep-pro-baby-bottle-maker-426776/index.html",
+      "to": "frontend/pages/product/tt-perfect-prep-pro-baby-bottle-maker-426776/index.php"
+    },
+    {
+      "from": "product/tt-perfect-prep-pro-baby-bottle-maker-426776-v2/index.html",
+      "to": "frontend/pages/product/tt-perfect-prep-pro-baby-bottle-maker-426776-v2/index.php"
+    },
+    {
+      "from": "product/tt-quick-cook-6-in-1-baby-food-maker-491656/index.html",
+      "to": "frontend/pages/product/tt-quick-cook-6-in-1-baby-food-maker-491656/index.php"
+    },
+    {
+      "from": "product/tt-silicone-breast-pump-tommee-tippee-223230/index.html",
+      "to": "frontend/pages/product/tt-silicone-breast-pump-tommee-tippee-223230/index.php"
+    },
+    {
+      "from": "product/tt-slow-flow-teat-2-pk-tommee-tippee-423961/index.html",
+      "to": "frontend/pages/product/tt-slow-flow-teat-2-pk-tommee-tippee-423961/index.php"
+    },
+    {
+      "from": "product/tt-softee-weaning-spoons-4-pcs-447188/index.html",
+      "to": "frontend/pages/product/tt-softee-weaning-spoons-4-pcs-447188/index.php"
+    },
+    {
+      "from": "product/tt-starter-straw-cup-6m-8oz-448003/index.html",
+      "to": "frontend/pages/product/tt-starter-straw-cup-6m-8oz-448003/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-easiflow-replacement-spouts-damage-packaging-430372/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-easiflow-replacement-spouts-damage-packaging-430372/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-manual-breast-pump-portable-lightweight/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-manual-breast-pump-portable-lightweight/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-newborn-soother-0-2m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-newborn-soother-0-2m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-newborn-soother-0-2m-pack-of-2-v2/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-newborn-soother-0-2m-pack-of-2-v2/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-newborn-soother-0-2m-pack-of-2-v3/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-newborn-soother-0-2m-pack-of-2-v3/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-night-time-soother-6-18m-433661/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-night-time-soother-6-18m-433661/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-softee-weaning-spoons-5-pcs-447196/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-softee-weaning-spoons-5-pcs-447196/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-soother-comfort-clip-0m/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-soother-comfort-clip-0m/index.php"
+    },
+    {
+      "from": "product/tt-tommee-tippee-ultimate-fit-soother-6-18m-433651/index.html",
+      "to": "frontend/pages/product/tt-tommee-tippee-ultimate-fit-soother-6-18m-433651/index.php"
+    },
+    {
+      "from": "product/tt-transition-spout-cup-150ml-447940/index.html",
+      "to": "frontend/pages/product/tt-transition-spout-cup-150ml-447940/index.php"
+    },
+    {
+      "from": "product/tt-transition-spout-cup-150ml-447941/index.html",
+      "to": "frontend/pages/product/tt-transition-spout-cup-150ml-447941/index.php"
+    },
+    {
+      "from": "product/tt-ultimate-fit-latex-soother-0-6m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-ultimate-fit-latex-soother-0-6m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-ultimate-fit-latex-soother-6-18m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-ultimate-fit-latex-soother-6-18m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-ultimate-fit-soother-0-6m/index.html",
+      "to": "frontend/pages/product/tt-ultimate-fit-soother-0-6m/index.php"
+    },
+    {
+      "from": "product/tt-ultimate-fit-soother-6-18m-433651/index.html",
+      "to": "frontend/pages/product/tt-ultimate-fit-soother-6-18m-433651/index.php"
+    },
+    {
+      "from": "product/tt-ultimate-fit-soother-6-18m-433651-v2/index.html",
+      "to": "frontend/pages/product/tt-ultimate-fit-soother-6-18m-433651-v2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-decorated-soother-18-36m/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-decorated-soother-18-36m/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-decorated-soother-18-36m-433657/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-decorated-soother-18-36m-433657/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-decorated-soother-18-36m-v2/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-decorated-soother-18-36m-v2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-decorated-soother-18-36m-v3/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-decorated-soother-18-36m-v3/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-decorated-soother-6-18m-433652/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-decorated-soother-6-18m-433652/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-silicone-soother-0-6m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-silicone-soother-0-6m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-silicone-soother-0-6m-pack-of-2-v2/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-silicone-soother-0-6m-pack-of-2-v2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-fit-silicone-soother-6-18m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-ultra-fit-silicone-soother-6-18m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-silicone-soother-0-6m-433789/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-silicone-soother-0-6m-433789/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-silicone-soother-0-6m-433790/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-silicone-soother-0-6m-433790/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-silicone-soother-0-6m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-silicone-soother-0-6m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-silicone-soother-0-6m-pack-of-2-v2/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-silicone-soother-0-6m-pack-of-2-v2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-silicone-soother-6-18m-pack-of-2/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-silicone-soother-6-18m-pack-of-2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-silicone-soother-6-18m-pack-of-2-v2/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-silicone-soother-6-18m-pack-of-2-v2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-soothers-6-18m-433595/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-soothers-6-18m-433595/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-soothers-6-18m-433595-v2/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-soothers-6-18m-433595-v2/index.php"
+    },
+    {
+      "from": "product/tt-ultra-light-soothers-6-18m-433595-v3/index.html",
+      "to": "frontend/pages/product/tt-ultra-light-soothers-6-18m-433595-v3/index.php"
+    },
+    {
+      "from": "product/tt-ultra-uv-steriliser-dryer-storage-white-423110/index.html",
+      "to": "frontend/pages/product/tt-ultra-uv-steriliser-dryer-storage-white-423110/index.php"
+    },
+    {
+      "from": "product/tt24-053/index.html",
+      "to": "frontend/pages/product/tt24-053/index.php"
+    },
+    {
+      "from": "product/tt24-076/index.html",
+      "to": "frontend/pages/product/tt24-076/index.php"
+    },
+    {
+      "from": "product/tt248039/index.html",
+      "to": "frontend/pages/product/tt248039/index.php"
+    },
+    {
+      "from": "product/tt26-008/index.html",
+      "to": "frontend/pages/product/tt26-008/index.php"
+    },
+    {
+      "from": "product/tt26-055/index.html",
+      "to": "frontend/pages/product/tt26-055/index.php"
+    },
+    {
+      "from": "product/tt26-080/index.html",
+      "to": "frontend/pages/product/tt26-080/index.php"
+    },
+    {
+      "from": "product/tt433455/index.html",
+      "to": "frontend/pages/product/tt433455/index.php"
+    },
+    {
+      "from": "product/zoo_6181/index.html",
+      "to": "frontend/pages/product/zoo_6181/index.php"
+    },
+    {
+      "from": "product/zoo_6691/index.html",
+      "to": "frontend/pages/product/zoo_6691/index.php"
+    },
+    {
+      "from": "profile.html",
+      "to": "frontend/pages/profile.php"
+    },
+    {
+      "from": "reels.html",
+      "to": "frontend/pages/reels.php"
+    },
+    {
+      "from": "returns/index.html",
+      "to": "frontend/pages/returns/index.php"
+    },
+    {
+      "from": "returns.html",
+      "to": "frontend/pages/returns.php"
+    },
+    {
+      "from": "saved.html",
+      "to": "frontend/pages/saved.php"
+    },
+    {
+      "from": "shop/brands/cool-cool/index.html",
+      "to": "frontend/pages/shop/brands/cool-cool/index.php"
+    },
+    {
+      "from": "shop/brands/farlin/index.html",
+      "to": "frontend/pages/shop/brands/farlin/index.php"
+    },
+    {
+      "from": "shop/brands/homeatic/index.html",
+      "to": "frontend/pages/shop/brands/homeatic/index.php"
+    },
+    {
+      "from": "shop/brands/huanger/index.html",
+      "to": "frontend/pages/shop/brands/huanger/index.php"
+    },
+    {
+      "from": "shop/brands/index.html",
+      "to": "frontend/pages/shop/brands/index.php"
+    },
+    {
+      "from": "shop/brands/kidilo/index.html",
+      "to": "frontend/pages/shop/brands/kidilo/index.php"
+    },
+    {
+      "from": "shop/brands/mastela/index.html",
+      "to": "frontend/pages/shop/brands/mastela/index.php"
+    },
+    {
+      "from": "shop/brands/parentinghub-gear/index.html",
+      "to": "frontend/pages/shop/brands/parentinghub-gear/index.php"
+    },
+    {
+      "from": "shop/brands/philips-avent/index.html",
+      "to": "frontend/pages/shop/brands/philips-avent/index.php"
+    },
+    {
+      "from": "shop/brands/pigeon/index.html",
+      "to": "frontend/pages/shop/brands/pigeon/index.php"
+    },
+    {
+      "from": "shop/brands/power-weelz/index.html",
+      "to": "frontend/pages/shop/brands/power-weelz/index.php"
+    },
+    {
+      "from": "shop/brands/sobebear/index.html",
+      "to": "frontend/pages/shop/brands/sobebear/index.php"
+    },
+    {
+      "from": "shop/brands/tinnies/index.html",
+      "to": "frontend/pages/shop/brands/tinnies/index.php"
+    },
+    {
+      "from": "shop/brands/tiny-toes/index.html",
+      "to": "frontend/pages/shop/brands/tiny-toes/index.php"
+    },
+    {
+      "from": "shop/brands/tommee-tippee/index.html",
+      "to": "frontend/pages/shop/brands/tommee-tippee/index.php"
+    },
+    {
+      "from": "shop/categories/accessories/index.html",
+      "to": "frontend/pages/shop/categories/accessories/index.php"
+    },
+    {
+      "from": "shop/categories/baby-caps/index.html",
+      "to": "frontend/pages/shop/categories/baby-caps/index.php"
+    },
+    {
+      "from": "shop/categories/baby-cologne/index.html",
+      "to": "frontend/pages/shop/categories/baby-cologne/index.php"
+    },
+    {
+      "from": "shop/categories/baby-gears-furniture/index.html",
+      "to": "frontend/pages/shop/categories/baby-gears-furniture/index.php"
+    },
+    {
+      "from": "shop/categories/baby-lotion/index.html",
+      "to": "frontend/pages/shop/categories/baby-lotion/index.php"
+    },
+    {
+      "from": "shop/categories/baby-oil/index.html",
+      "to": "frontend/pages/shop/categories/baby-oil/index.php"
+    },
+    {
+      "from": "shop/categories/baby-powder/index.html",
+      "to": "frontend/pages/shop/categories/baby-powder/index.php"
+    },
+    {
+      "from": "shop/categories/baby-shampoo-wash/index.html",
+      "to": "frontend/pages/shop/categories/baby-shampoo-wash/index.php"
+    },
+    {
+      "from": "shop/categories/baby-strollers/index.html",
+      "to": "frontend/pages/shop/categories/baby-strollers/index.php"
+    },
+    {
+      "from": "shop/categories/baby-swings-bouncers/index.html",
+      "to": "frontend/pages/shop/categories/baby-swings-bouncers/index.php"
+    },
+    {
+      "from": "shop/categories/baby-toys-activity/index.html",
+      "to": "frontend/pages/shop/categories/baby-toys-activity/index.php"
+    },
+    {
+      "from": "shop/categories/baby-walkers/index.html",
+      "to": "frontend/pages/shop/categories/baby-walkers/index.php"
+    },
+    {
+      "from": "shop/categories/baby-weaning/index.html",
+      "to": "frontend/pages/shop/categories/baby-weaning/index.php"
+    },
+    {
+      "from": "shop/categories/baby-winter-caps/index.html",
+      "to": "frontend/pages/shop/categories/baby-winter-caps/index.php"
+    },
+    {
+      "from": "shop/categories/baby-wipes-anti-mosquito-patch/index.html",
+      "to": "frontend/pages/shop/categories/baby-wipes-anti-mosquito-patch/index.php"
+    },
+    {
+      "from": "shop/categories/bath-ball-bath-hat/index.html",
+      "to": "frontend/pages/shop/categories/bath-ball-bath-hat/index.php"
+    },
+    {
+      "from": "shop/categories/bath-care/index.html",
+      "to": "frontend/pages/shop/categories/bath-care/index.php"
+    },
+    {
+      "from": "shop/categories/bath-chairs/index.html",
+      "to": "frontend/pages/shop/categories/bath-chairs/index.php"
+    },
+    {
+      "from": "shop/categories/bath-sponge/index.html",
+      "to": "frontend/pages/shop/categories/bath-sponge/index.php"
+    },
+    {
+      "from": "shop/categories/bath-time/index.html",
+      "to": "frontend/pages/shop/categories/bath-time/index.php"
+    },
+    {
+      "from": "shop/categories/bath-towel/index.html",
+      "to": "frontend/pages/shop/categories/bath-towel/index.php"
+    },
+    {
+      "from": "shop/categories/bath-tubs/index.html",
+      "to": "frontend/pages/shop/categories/bath-tubs/index.php"
+    },
+    {
+      "from": "shop/categories/bathing/index.html",
+      "to": "frontend/pages/shop/categories/bathing/index.php"
+    },
+    {
+      "from": "shop/categories/bathing-essentials/index.html",
+      "to": "frontend/pages/shop/categories/bathing-essentials/index.php"
+    },
+    {
+      "from": "shop/categories/bibs/index.html",
+      "to": "frontend/pages/shop/categories/bibs/index.php"
+    },
+    {
+      "from": "shop/categories/blankets/index.html",
+      "to": "frontend/pages/shop/categories/blankets/index.php"
+    },
+    {
+      "from": "shop/categories/booties/index.html",
+      "to": "frontend/pages/shop/categories/booties/index.php"
+    },
+    {
+      "from": "shop/categories/bottle-feeding/index.html",
+      "to": "frontend/pages/shop/categories/bottle-feeding/index.php"
+    },
+    {
+      "from": "shop/categories/bouncers-rockers/index.html",
+      "to": "frontend/pages/shop/categories/bouncers-rockers/index.php"
+    },
+    {
+      "from": "shop/categories/boy-canvas-joggers/index.html",
+      "to": "frontend/pages/shop/categories/boy-canvas-joggers/index.php"
+    },
+    {
+      "from": "shop/categories/boy-crocs/index.html",
+      "to": "frontend/pages/shop/categories/boy-crocs/index.php"
+    },
+    {
+      "from": "shop/categories/boy-footwear/index.html",
+      "to": "frontend/pages/shop/categories/boy-footwear/index.php"
+    },
+    {
+      "from": "shop/categories/boy-pre-walkers/index.html",
+      "to": "frontend/pages/shop/categories/boy-pre-walkers/index.php"
+    },
+    {
+      "from": "shop/categories/boy-sandals/index.html",
+      "to": "frontend/pages/shop/categories/boy-sandals/index.php"
+    },
+    {
+      "from": "shop/categories/boy-shoes/index.html",
+      "to": "frontend/pages/shop/categories/boy-shoes/index.php"
+    },
+    {
+      "from": "shop/categories/boy-slippers/index.html",
+      "to": "frontend/pages/shop/categories/boy-slippers/index.php"
+    },
+    {
+      "from": "shop/categories/boy-socks/index.html",
+      "to": "frontend/pages/shop/categories/boy-socks/index.php"
+    },
+    {
+      "from": "shop/categories/boys-body-suits/index.html",
+      "to": "frontend/pages/shop/categories/boys-body-suits/index.php"
+    },
+    {
+      "from": "shop/categories/boys-clothing/index.html",
+      "to": "frontend/pages/shop/categories/boys-clothing/index.php"
+    },
+    {
+      "from": "shop/categories/boys-dangri/index.html",
+      "to": "frontend/pages/shop/categories/boys-dangri/index.php"
+    },
+    {
+      "from": "shop/categories/boys-footwear/index.html",
+      "to": "frontend/pages/shop/categories/boys-footwear/index.php"
+    },
+    {
+      "from": "shop/categories/boys-gift-sets/index.html",
+      "to": "frontend/pages/shop/categories/boys-gift-sets/index.php"
+    },
+    {
+      "from": "shop/categories/boys-kurta-shalwar/index.html",
+      "to": "frontend/pages/shop/categories/boys-kurta-shalwar/index.php"
+    },
+    {
+      "from": "shop/categories/boys-new-born-suits/index.html",
+      "to": "frontend/pages/shop/categories/boys-new-born-suits/index.php"
+    },
+    {
+      "from": "shop/categories/boys-night-wear/index.html",
+      "to": "frontend/pages/shop/categories/boys-night-wear/index.php"
+    },
+    {
+      "from": "shop/categories/boys-pants/index.html",
+      "to": "frontend/pages/shop/categories/boys-pants/index.php"
+    },
+    {
+      "from": "shop/categories/boys-rompers/index.html",
+      "to": "frontend/pages/shop/categories/boys-rompers/index.php"
+    },
+    {
+      "from": "shop/categories/boys-shirts/index.html",
+      "to": "frontend/pages/shop/categories/boys-shirts/index.php"
+    },
+    {
+      "from": "shop/categories/boys-shorts/index.html",
+      "to": "frontend/pages/shop/categories/boys-shorts/index.php"
+    },
+    {
+      "from": "shop/categories/boys-sleep-suits/index.html",
+      "to": "frontend/pages/shop/categories/boys-sleep-suits/index.php"
+    },
+    {
+      "from": "shop/categories/boys-suits/index.html",
+      "to": "frontend/pages/shop/categories/boys-suits/index.php"
+    },
+    {
+      "from": "shop/categories/boys-sweaters-jackets/index.html",
+      "to": "frontend/pages/shop/categories/boys-sweaters-jackets/index.php"
+    },
+    {
+      "from": "shop/categories/boys-t-shirts/index.html",
+      "to": "frontend/pages/shop/categories/boys-t-shirts/index.php"
+    },
+    {
+      "from": "shop/categories/breast-care/index.html",
+      "to": "frontend/pages/shop/categories/breast-care/index.php"
+    },
+    {
+      "from": "shop/categories/breast-feeding/index.html",
+      "to": "frontend/pages/shop/categories/breast-feeding/index.php"
+    },
+    {
+      "from": "shop/categories/breast-pads/index.html",
+      "to": "frontend/pages/shop/categories/breast-pads/index.php"
+    },
+    {
+      "from": "shop/categories/breast-pumps/index.html",
+      "to": "frontend/pages/shop/categories/breast-pumps/index.php"
+    },
+    {
+      "from": "shop/categories/car-seats-carry-cots/index.html",
+      "to": "frontend/pages/shop/categories/car-seats-carry-cots/index.php"
+    },
+    {
+      "from": "shop/categories/carry-cots-car-seats/index.html",
+      "to": "frontend/pages/shop/categories/carry-cots-car-seats/index.php"
+    },
+    {
+      "from": "shop/categories/carry-crib/index.html",
+      "to": "frontend/pages/shop/categories/carry-crib/index.php"
+    },
+    {
+      "from": "shop/categories/carry-nest/index.html",
+      "to": "frontend/pages/shop/categories/carry-nest/index.php"
+    },
+    {
+      "from": "shop/categories/changing-sheets/index.html",
+      "to": "frontend/pages/shop/categories/changing-sheets/index.php"
+    },
+    {
+      "from": "shop/categories/cleaning-brushes/index.html",
+      "to": "frontend/pages/shop/categories/cleaning-brushes/index.php"
+    },
+    {
+      "from": "shop/categories/cleaning-hygeine/index.html",
+      "to": "frontend/pages/shop/categories/cleaning-hygeine/index.php"
+    },
+    {
+      "from": "shop/categories/clothing/index.html",
+      "to": "frontend/pages/shop/categories/clothing/index.php"
+    },
+    {
+      "from": "shop/categories/comb-brush-set/index.html",
+      "to": "frontend/pages/shop/categories/comb-brush-set/index.php"
+    },
+    {
+      "from": "shop/categories/cot-mobile/index.html",
+      "to": "frontend/pages/shop/categories/cot-mobile/index.php"
+    },
+    {
+      "from": "shop/categories/cots/index.html",
+      "to": "frontend/pages/shop/categories/cots/index.php"
+    },
+    {
+      "from": "shop/categories/cotton-balls/index.html",
+      "to": "frontend/pages/shop/categories/cotton-balls/index.php"
+    },
+    {
+      "from": "shop/categories/cotton-buds/index.html",
+      "to": "frontend/pages/shop/categories/cotton-buds/index.php"
+    },
+    {
+      "from": "shop/categories/creams/index.html",
+      "to": "frontend/pages/shop/categories/creams/index.php"
+    },
+    {
+      "from": "shop/categories/cribs/index.html",
+      "to": "frontend/pages/shop/categories/cribs/index.php"
+    },
+    {
+      "from": "shop/categories/cuddler-harness-belt/index.html",
+      "to": "frontend/pages/shop/categories/cuddler-harness-belt/index.php"
+    },
+    {
+      "from": "shop/categories/cup-weaning/index.html",
+      "to": "frontend/pages/shop/categories/cup-weaning/index.php"
+    },
+    {
+      "from": "shop/categories/detergents/index.html",
+      "to": "frontend/pages/shop/categories/detergents/index.php"
+    },
+    {
+      "from": "shop/categories/diaper-bags/index.html",
+      "to": "frontend/pages/shop/categories/diaper-bags/index.php"
+    },
+    {
+      "from": "shop/categories/diapers-panties/index.html",
+      "to": "frontend/pages/shop/categories/diapers-panties/index.php"
+    },
+    {
+      "from": "shop/categories/drawers-cabinets/index.html",
+      "to": "frontend/pages/shop/categories/drawers-cabinets/index.php"
+    },
+    {
+      "from": "shop/categories/electricals/index.html",
+      "to": "frontend/pages/shop/categories/electricals/index.php"
+    },
+    {
+      "from": "shop/categories/essentials/index.html",
+      "to": "frontend/pages/shop/categories/essentials/index.php"
+    },
+    {
+      "from": "shop/categories/face-towel/index.html",
+      "to": "frontend/pages/shop/categories/face-towel/index.php"
+    },
+    {
+      "from": "shop/categories/feeder-cover/index.html",
+      "to": "frontend/pages/shop/categories/feeder-cover/index.php"
+    },
+    {
+      "from": "shop/categories/feeder-warmers/index.html",
+      "to": "frontend/pages/shop/categories/feeder-warmers/index.php"
+    },
+    {
+      "from": "shop/categories/feeding/index.html",
+      "to": "frontend/pages/shop/categories/feeding/index.php"
+    },
+    {
+      "from": "shop/categories/feeding-bottles/index.html",
+      "to": "frontend/pages/shop/categories/feeding-bottles/index.php"
+    },
+    {
+      "from": "shop/categories/feeding-bowls-spoons/index.html",
+      "to": "frontend/pages/shop/categories/feeding-bowls-spoons/index.php"
+    },
+    {
+      "from": "shop/categories/feeding-bra/index.html",
+      "to": "frontend/pages/shop/categories/feeding-bra/index.php"
+    },
+    {
+      "from": "shop/categories/feeding-chairs/index.html",
+      "to": "frontend/pages/shop/categories/feeding-chairs/index.php"
+    },
+    {
+      "from": "shop/categories/feeding-essentials/index.html",
+      "to": "frontend/pages/shop/categories/feeding-essentials/index.php"
+    },
+    {
+      "from": "shop/categories/feeding-pillow/index.html",
+      "to": "frontend/pages/shop/categories/feeding-pillow/index.php"
+    },
+    {
+      "from": "shop/categories/floss-toothpick/index.html",
+      "to": "frontend/pages/shop/categories/floss-toothpick/index.php"
+    },
+    {
+      "from": "shop/categories/footwear/index.html",
+      "to": "frontend/pages/shop/categories/footwear/index.php"
+    },
+    {
+      "from": "shop/categories/footwear-essentails/index.html",
+      "to": "frontend/pages/shop/categories/footwear-essentails/index.php"
+    },
+    {
+      "from": "shop/categories/footwear-essentials/index.html",
+      "to": "frontend/pages/shop/categories/footwear-essentials/index.php"
+    },
+    {
+      "from": "shop/categories/furniture/index.html",
+      "to": "frontend/pages/shop/categories/furniture/index.php"
+    },
+    {
+      "from": "shop/categories/gears/index.html",
+      "to": "frontend/pages/shop/categories/gears/index.php"
+    },
+    {
+      "from": "shop/categories/gift-sets/index.html",
+      "to": "frontend/pages/shop/categories/gift-sets/index.php"
+    },
+    {
+      "from": "shop/categories/girl-canvas-joggers/index.html",
+      "to": "frontend/pages/shop/categories/girl-canvas-joggers/index.php"
+    },
+    {
+      "from": "shop/categories/girl-crocs/index.html",
+      "to": "frontend/pages/shop/categories/girl-crocs/index.php"
+    },
+    {
+      "from": "shop/categories/girl-footwear/index.html",
+      "to": "frontend/pages/shop/categories/girl-footwear/index.php"
+    },
+    {
+      "from": "shop/categories/girl-pre-walkers/index.html",
+      "to": "frontend/pages/shop/categories/girl-pre-walkers/index.php"
+    },
+    {
+      "from": "shop/categories/girl-sandals/index.html",
+      "to": "frontend/pages/shop/categories/girl-sandals/index.php"
+    },
+    {
+      "from": "shop/categories/girl-shoes/index.html",
+      "to": "frontend/pages/shop/categories/girl-shoes/index.php"
+    },
+    {
+      "from": "shop/categories/girl-slippers/index.html",
+      "to": "frontend/pages/shop/categories/girl-slippers/index.php"
+    },
+    {
+      "from": "shop/categories/girl-socks/index.html",
+      "to": "frontend/pages/shop/categories/girl-socks/index.php"
+    },
+    {
+      "from": "shop/categories/girls-body-suits/index.html",
+      "to": "frontend/pages/shop/categories/girls-body-suits/index.php"
+    },
+    {
+      "from": "shop/categories/girls-clothing/index.html",
+      "to": "frontend/pages/shop/categories/girls-clothing/index.php"
+    },
+    {
+      "from": "shop/categories/girls-dangri/index.html",
+      "to": "frontend/pages/shop/categories/girls-dangri/index.php"
+    },
+    {
+      "from": "shop/categories/girls-footwear/index.html",
+      "to": "frontend/pages/shop/categories/girls-footwear/index.php"
+    },
+    {
+      "from": "shop/categories/girls-frocks/index.html",
+      "to": "frontend/pages/shop/categories/girls-frocks/index.php"
+    },
+    {
+      "from": "shop/categories/girls-gift-sets/index.html",
+      "to": "frontend/pages/shop/categories/girls-gift-sets/index.php"
+    },
+    {
+      "from": "shop/categories/girls-hair-accessories/index.html",
+      "to": "frontend/pages/shop/categories/girls-hair-accessories/index.php"
+    },
+    {
+      "from": "shop/categories/girls-new-born-suits/index.html",
+      "to": "frontend/pages/shop/categories/girls-new-born-suits/index.php"
+    },
+    {
+      "from": "shop/categories/girls-night-wear/index.html",
+      "to": "frontend/pages/shop/categories/girls-night-wear/index.php"
+    },
+    {
+      "from": "shop/categories/girls-pants/index.html",
+      "to": "frontend/pages/shop/categories/girls-pants/index.php"
+    },
+    {
+      "from": "shop/categories/girls-purses/index.html",
+      "to": "frontend/pages/shop/categories/girls-purses/index.php"
+    },
+    {
+      "from": "shop/categories/girls-rompers/index.html",
+      "to": "frontend/pages/shop/categories/girls-rompers/index.php"
+    },
+    {
+      "from": "shop/categories/girls-shorts/index.html",
+      "to": "frontend/pages/shop/categories/girls-shorts/index.php"
+    },
+    {
+      "from": "shop/categories/girls-sleep-suits/index.html",
+      "to": "frontend/pages/shop/categories/girls-sleep-suits/index.php"
+    },
+    {
+      "from": "shop/categories/girls-suits/index.html",
+      "to": "frontend/pages/shop/categories/girls-suits/index.php"
+    },
+    {
+      "from": "shop/categories/girls-sweaters-jackets/index.html",
+      "to": "frontend/pages/shop/categories/girls-sweaters-jackets/index.php"
+    },
+    {
+      "from": "shop/categories/girls-t-shirts/index.html",
+      "to": "frontend/pages/shop/categories/girls-t-shirts/index.php"
+    },
+    {
+      "from": "shop/categories/girls-tights/index.html",
+      "to": "frontend/pages/shop/categories/girls-tights/index.php"
+    },
+    {
+      "from": "shop/categories/girls-tops/index.html",
+      "to": "frontend/pages/shop/categories/girls-tops/index.php"
+    },
+    {
+      "from": "shop/categories/glass-feeders/index.html",
+      "to": "frontend/pages/shop/categories/glass-feeders/index.php"
+    },
+    {
+      "from": "shop/categories/grooming-accessories/index.html",
+      "to": "frontend/pages/shop/categories/grooming-accessories/index.php"
+    },
+    {
+      "from": "shop/categories/grooming-and-toiletries/index.html",
+      "to": "frontend/pages/shop/categories/grooming-and-toiletries/index.php"
+    },
+    {
+      "from": "shop/categories/gum-soothing-essentials/index.html",
+      "to": "frontend/pages/shop/categories/gum-soothing-essentials/index.php"
+    },
+    {
+      "from": "shop/categories/high-chairs/index.html",
+      "to": "frontend/pages/shop/categories/high-chairs/index.php"
+    },
+    {
+      "from": "shop/categories/index.html",
+      "to": "frontend/pages/shop/categories/index.php"
+    },
+    {
+      "from": "shop/categories/inners/index.html",
+      "to": "frontend/pages/shop/categories/inners/index.php"
+    },
+    {
+      "from": "shop/categories/jumper/index.html",
+      "to": "frontend/pages/shop/categories/jumper/index.php"
+    },
+    {
+      "from": "shop/categories/kids-loungewear/index.html",
+      "to": "frontend/pages/shop/categories/kids-loungewear/index.php"
+    },
+    {
+      "from": "shop/categories/kids-must-haves/index.html",
+      "to": "frontend/pages/shop/categories/kids-must-haves/index.php"
+    },
+    {
+      "from": "shop/categories/kids-toys-and-gears/index.html",
+      "to": "frontend/pages/shop/categories/kids-toys-and-gears/index.php"
+    },
+    {
+      "from": "shop/categories/knee-pads/index.html",
+      "to": "frontend/pages/shop/categories/knee-pads/index.php"
+    },
+    {
+      "from": "shop/categories/liquid-cleansers/index.html",
+      "to": "frontend/pages/shop/categories/liquid-cleansers/index.php"
+    },
+    {
+      "from": "shop/categories/liquid-soap/index.html",
+      "to": "frontend/pages/shop/categories/liquid-soap/index.php"
+    },
+    {
+      "from": "shop/categories/maternity/index.html",
+      "to": "frontend/pages/shop/categories/maternity/index.php"
+    },
+    {
+      "from": "shop/categories/maternity-belt/index.html",
+      "to": "frontend/pages/shop/categories/maternity-belt/index.php"
+    },
+    {
+      "from": "shop/categories/maternity-care/index.html",
+      "to": "frontend/pages/shop/categories/maternity-care/index.php"
+    },
+    {
+      "from": "shop/categories/mattress-beddings/index.html",
+      "to": "frontend/pages/shop/categories/mattress-beddings/index.php"
+    },
+    {
+      "from": "shop/categories/medicine-feeder/index.html",
+      "to": "frontend/pages/shop/categories/medicine-feeder/index.php"
+    },
+    {
+      "from": "shop/categories/milk-powder-containers/index.html",
+      "to": "frontend/pages/shop/categories/milk-powder-containers/index.php"
+    },
+    {
+      "from": "shop/categories/milk-storage/index.html",
+      "to": "frontend/pages/shop/categories/milk-storage/index.php"
+    },
+    {
+      "from": "shop/categories/mittens/index.html",
+      "to": "frontend/pages/shop/categories/mittens/index.php"
+    },
+    {
+      "from": "shop/categories/mosquito-net/index.html",
+      "to": "frontend/pages/shop/categories/mosquito-net/index.php"
+    },
+    {
+      "from": "shop/categories/mosquito-net-tent/index.html",
+      "to": "frontend/pages/shop/categories/mosquito-net-tent/index.php"
+    },
+    {
+      "from": "shop/categories/nail-clipper-scissors/index.html",
+      "to": "frontend/pages/shop/categories/nail-clipper-scissors/index.php"
+    },
+    {
+      "from": "shop/categories/nasal-aspirator/index.html",
+      "to": "frontend/pages/shop/categories/nasal-aspirator/index.php"
+    },
+    {
+      "from": "shop/categories/new-born-essentials/index.html",
+      "to": "frontend/pages/shop/categories/new-born-essentials/index.php"
+    },
+    {
+      "from": "shop/categories/newborn-accessories/index.html",
+      "to": "frontend/pages/shop/categories/newborn-accessories/index.php"
+    },
+    {
+      "from": "shop/categories/nipple-cream/index.html",
+      "to": "frontend/pages/shop/categories/nipple-cream/index.php"
+    },
+    {
+      "from": "shop/categories/nipple-shields/index.html",
+      "to": "frontend/pages/shop/categories/nipple-shields/index.php"
+    },
+    {
+      "from": "shop/categories/nipples/index.html",
+      "to": "frontend/pages/shop/categories/nipples/index.php"
+    },
+    {
+      "from": "shop/categories/non-spill-cups/index.html",
+      "to": "frontend/pages/shop/categories/non-spill-cups/index.php"
+    },
+    {
+      "from": "shop/categories/nursery-essentials/index.html",
+      "to": "frontend/pages/shop/categories/nursery-essentials/index.php"
+    },
+    {
+      "from": "shop/categories/nursing-essentials/index.html",
+      "to": "frontend/pages/shop/categories/nursing-essentials/index.php"
+    },
+    {
+      "from": "shop/categories/pacifiers/index.html",
+      "to": "frontend/pages/shop/categories/pacifiers/index.php"
+    },
+    {
+      "from": "shop/categories/pacifiers-chains/index.html",
+      "to": "frontend/pages/shop/categories/pacifiers-chains/index.php"
+    },
+    {
+      "from": "shop/categories/pajamas/index.html",
+      "to": "frontend/pages/shop/categories/pajamas/index.php"
+    },
+    {
+      "from": "shop/categories/pillow/index.html",
+      "to": "frontend/pages/shop/categories/pillow/index.php"
+    },
+    {
+      "from": "shop/categories/play-gyms/index.html",
+      "to": "frontend/pages/shop/categories/play-gyms/index.php"
+    },
+    {
+      "from": "shop/categories/play-yard/index.html",
+      "to": "frontend/pages/shop/categories/play-yard/index.php"
+    },
+    {
+      "from": "shop/categories/playards-cribs/index.html",
+      "to": "frontend/pages/shop/categories/playards-cribs/index.php"
+    },
+    {
+      "from": "shop/categories/potty-chairs/index.html",
+      "to": "frontend/pages/shop/categories/potty-chairs/index.php"
+    },
+    {
+      "from": "shop/categories/powder-puff/index.html",
+      "to": "frontend/pages/shop/categories/powder-puff/index.php"
+    },
+    {
+      "from": "shop/categories/preemie-cleft-palate/index.html",
+      "to": "frontend/pages/shop/categories/preemie-cleft-palate/index.php"
+    },
+    {
+      "from": "shop/categories/ride-on-scooters/index.html",
+      "to": "frontend/pages/shop/categories/ride-on-scooters/index.php"
+    },
+    {
+      "from": "shop/categories/safety-pins/index.html",
+      "to": "frontend/pages/shop/categories/safety-pins/index.php"
+    },
+    {
+      "from": "shop/categories/sanitizer/index.html",
+      "to": "frontend/pages/shop/categories/sanitizer/index.php"
+    },
+    {
+      "from": "shop/categories/sleeping-sets/index.html",
+      "to": "frontend/pages/shop/categories/sleeping-sets/index.php"
+    },
+    {
+      "from": "shop/categories/slim-neck-feeders/index.html",
+      "to": "frontend/pages/shop/categories/slim-neck-feeders/index.php"
+    },
+    {
+      "from": "shop/categories/soap/index.html",
+      "to": "frontend/pages/shop/categories/soap/index.php"
+    },
+    {
+      "from": "shop/categories/soothing/index.html",
+      "to": "frontend/pages/shop/categories/soothing/index.php"
+    },
+    {
+      "from": "shop/categories/spoon-feeder/index.html",
+      "to": "frontend/pages/shop/categories/spoon-feeder/index.php"
+    },
+    {
+      "from": "shop/categories/starter-set/index.html",
+      "to": "frontend/pages/shop/categories/starter-set/index.php"
+    },
+    {
+      "from": "shop/categories/sterlizers/index.html",
+      "to": "frontend/pages/shop/categories/sterlizers/index.php"
+    },
+    {
+      "from": "shop/categories/strollers-buggies/index.html",
+      "to": "frontend/pages/shop/categories/strollers-buggies/index.php"
+    },
+    {
+      "from": "shop/categories/summer-hats/index.html",
+      "to": "frontend/pages/shop/categories/summer-hats/index.php"
+    },
+    {
+      "from": "shop/categories/suspender/index.html",
+      "to": "frontend/pages/shop/categories/suspender/index.php"
+    },
+    {
+      "from": "shop/categories/swings/index.html",
+      "to": "frontend/pages/shop/categories/swings/index.php"
+    },
+    {
+      "from": "shop/categories/teats/index.html",
+      "to": "frontend/pages/shop/categories/teats/index.php"
+    },
+    {
+      "from": "shop/categories/teethers/index.html",
+      "to": "frontend/pages/shop/categories/teethers/index.php"
+    },
+    {
+      "from": "shop/categories/thermometer/index.html",
+      "to": "frontend/pages/shop/categories/thermometer/index.php"
+    },
+    {
+      "from": "shop/categories/tie-bow/index.html",
+      "to": "frontend/pages/shop/categories/tie-bow/index.php"
+    },
+    {
+      "from": "shop/categories/tights-leggings/index.html",
+      "to": "frontend/pages/shop/categories/tights-leggings/index.php"
+    },
+    {
+      "from": "shop/categories/tinnies-premium-gears/index.html",
+      "to": "frontend/pages/shop/categories/tinnies-premium-gears/index.php"
+    },
+    {
+      "from": "shop/categories/toilet-seats/index.html",
+      "to": "frontend/pages/shop/categories/toilet-seats/index.php"
+    },
+    {
+      "from": "shop/categories/toileteries/index.html",
+      "to": "frontend/pages/shop/categories/toileteries/index.php"
+    },
+    {
+      "from": "shop/categories/toiletery-sets/index.html",
+      "to": "frontend/pages/shop/categories/toiletery-sets/index.php"
+    },
+    {
+      "from": "shop/categories/tooth-brushes/index.html",
+      "to": "frontend/pages/shop/categories/tooth-brushes/index.php"
+    },
+    {
+      "from": "shop/categories/tooth-paste/index.html",
+      "to": "frontend/pages/shop/categories/tooth-paste/index.php"
+    },
+    {
+      "from": "shop/categories/toys/index.html",
+      "to": "frontend/pages/shop/categories/toys/index.php"
+    },
+    {
+      "from": "shop/categories/training-cups/index.html",
+      "to": "frontend/pages/shop/categories/training-cups/index.php"
+    },
+    {
+      "from": "shop/categories/vacuum-flask/index.html",
+      "to": "frontend/pages/shop/categories/vacuum-flask/index.php"
+    },
+    {
+      "from": "shop/categories/vest/index.html",
+      "to": "frontend/pages/shop/categories/vest/index.php"
+    },
+    {
+      "from": "shop/categories/weaning-soothing/index.html",
+      "to": "frontend/pages/shop/categories/weaning-soothing/index.php"
+    },
+    {
+      "from": "shop/categories/wide-neck-feeders/index.html",
+      "to": "frontend/pages/shop/categories/wide-neck-feeders/index.php"
+    },
+    {
+      "from": "shop/categories/winter-hats/index.html",
+      "to": "frontend/pages/shop/categories/winter-hats/index.php"
+    },
+    {
+      "from": "shop/categories/woolen-suits/index.html",
+      "to": "frontend/pages/shop/categories/woolen-suits/index.php"
+    },
+    {
+      "from": "shop/categories/wraping-sheet-swaddle-sheet/index.html",
+      "to": "frontend/pages/shop/categories/wraping-sheet-swaddle-sheet/index.php"
+    },
+    {
+      "from": "shop/categories/wrist-watch/index.html",
+      "to": "frontend/pages/shop/categories/wrist-watch/index.php"
+    },
+    {
+      "from": "shop/deals/index.html",
+      "to": "frontend/pages/shop/deals/index.php"
+    },
+    {
+      "from": "shop/index.html",
+      "to": "frontend/pages/shop/index.php"
+    },
+    {
+      "from": "shop.html",
+      "to": "frontend/pages/shop.php"
+    },
+    {
+      "from": "support/index.html",
+      "to": "frontend/pages/support/index.php"
+    },
+    {
+      "from": "support.html",
+      "to": "frontend/pages/support.php"
+    },
+    {
+      "from": "terms.html",
+      "to": "frontend/pages/terms.php"
+    },
+    {
+      "from": "track.html",
+      "to": "frontend/pages/track.php"
+    }
+  ],
+  "excluded": [
+    "admin/index.html",
+    "articles/index.spa-backup.html",
+    "community/index.spa-backup.html",
+    "shop/index.spa-backup.html",
+    "about.zip",
+    "well-known-weight-delivery-fixed.zip",
+    "dev_server.js",
+    "build_clean_data.js",
+    "tools/ (old HTML generator)"
+  ],
+  "notes": "Old generators target the previous layout; retained in original ZIP, excluded from runtime release."
+}

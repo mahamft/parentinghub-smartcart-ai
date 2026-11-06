@@ -1,0 +1,127 @@
+[
+  {
+    "pattern": "^shop/categories/baby\\-weaning/?$",
+    "target": "/shop/categories/cup-weaning",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/bathing\\-essentials/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/boy\\-footwear/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/carry\\-nest/?$",
+    "target": "/shop/categories/accessories",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/cleaning\\-hygeine/?$",
+    "target": "/shop/categories/electricals",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/footwear\\-essentials/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/girl\\-footwear/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/grooming\\-toiletries/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/gum\\-soothing\\-essentials/?$",
+    "target": "/shop/categories/soothing",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/kids\\-loungewear/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/kids\\-must\\-haves/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/kids\\-toys\\-gears/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/new\\-born\\-essentials/?$",
+    "target": "/shop/categories/feeding-bottles",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/newborn\\-accessories/?$",
+    "target": "/shop/categories/accessories",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/nursing\\-essentials/?$",
+    "target": "/shop/categories/breast-feeding",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/sterlizers/?$",
+    "target": "/shop/categories/electricals",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/tinnies\\-premium\\-gears/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/categories/weaning\\-soothing/?$",
+    "target": "/shop/categories/cup-weaning",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/brands/cool\\-cool/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/brands/farlin/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/brands/homeatic/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/brands/pigeon/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/brands/tinnies/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^shop/brands/tiny\\-toes/?$",
+    "target": "/shop",
+    "status": 301
+  },
+  {
+    "pattern": "^product/?$",
+    "target": "/shop",
+    "status": 301
+  }
+]

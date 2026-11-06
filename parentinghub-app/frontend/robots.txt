@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /parent
+Disallow: /checkout
+Disallow: /cart
+Disallow: /track
+Disallow: /profile
+Disallow: /messages
+Disallow: /login
+Disallow: /register
+
+Disallow: /admin-panel
+Disallow: /api/
+Disallow: /edit-profile
+Disallow: /saved
+
+Sitemap: https://www.parentinghub.pk/sitemap.xml
